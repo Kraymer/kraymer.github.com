@@ -11,16 +11,27 @@
 #     *My Tag* is an example of how to define a custom tag.
 # ~~~
 
-hyde:
-  name: Hyde
+music-management:
+  name: Music management
   image: /hydejack/public/img/hyde.jpg
   color: '#949667'
   description: >
-    Hyde is a brazen two-column Jekyll theme that pairs a prominent sidebar with uncomplicated content.
-    It’s based on Poole, the Jekyll butler.
+    The pre Spotify era. Music management used to be a big thing. Most part of this blog old archives cover this theme. 
 
-jekyll:
-  name: Jekyll
+open-source:
+  name: Open source
+  image: /hydejack/public/img/jekyll.jpg
+  color: '#949667'
+  description: |+
+    Jekyll is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes.
+
+    [`F-dotfiles`{:style="background: rgba(128, 255, 255, 0.15)"}](https://github.com/Kraymer/F-dotfiles)
+    [`gists`{:style="background: rgba(128, 255, 255, 0.15)"}](https://github.com/Kraymer/)
+    [`qifqif`{:style="background: rgba(128, 255, 255, 0.15)"}](https://github.com/Kraymer/qifqif)
+
+misc:
+  shortname: "*"
+  name: misc
   image: /hydejack/public/img/jekyll.jpg
   color: '#949667'
   description: >

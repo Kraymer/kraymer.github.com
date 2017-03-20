@@ -3,6 +3,8 @@
   <div id="_asidebar" class="container sidebar-sticky">
     <div class="sidebar-about">
       <h1 class="font-accent"><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
+      {{ site.tagline | markdownify }}
+
       {{ site.description | markdownify }}
     </div>
 

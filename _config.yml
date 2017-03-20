@@ -1,19 +1,21 @@
 # Dependencies
 gems:
   - jekyll-sitemap
-  - jekyll-paginate
 
 # Permalinks
 permalink:           pretty
 
 # Setup
-url:                 http://qwtel.com
+url:                 http://kray.me
 
 # Set to '' in case of hosting on GitHub pages,
 # i.e. `http://<username>.github.io`
-baseurl:             /hydejack
+baseurl:             ''
 
-title:               Hydejack
+title: Multa paucis
+
+tagline:   "*Say much in few words*"
+
 
 # Pagination
 paginate:            5
@@ -21,15 +23,13 @@ paginate_path:       '/page-:num/'
 
 # Markdown enabled, however don't use more than one paragraph (enforced by `>`)
 description:         >
-  A pretentious two-column [Jekyll](http://jekyllrb.com/) theme, stolen by [`@qwtel`{:style="background: rgba(255, 255, 255, 0.15)"}](https://twitter.com/qwtel)
-  from [Hyde](http://hyde.getpoole.com).
-  You could say it was.. [hydejacked](http://media3.giphy.com/media/makedRIckZBW8/giphy.gif).
+  [`@kraymer`{:style="background: rgba(255, 255, 255, 0.15)"}](https://kray.me/about) technical musings
 
 # The tags listed as entries in the sidebar
-sidebar_tags:        [jekyll, hyde]
+sidebar_tags:        [open-source, music-management, misc]
 
 # Fallback image and color if not overwritten for tag or post
-image:               /hydejack/public/img/nap.jpg
+image:               /public/img/back.jpg
 color:               '#A85641'
 
 # Fonts
@@ -39,7 +39,7 @@ load_google_fonts:   'Roboto+Slab:700|PT+Serif:400,400italic,700,700italic'
 
 # About yourself
 author:
-  name:              'Florian Klampfer'
+  name:              'Fabrice Laporte'
 
   # This photo will be used in the about section
   photo:             http://qwtel.com/public/img/flo.jpg
@@ -57,15 +57,11 @@ author:
   # Icons appear in order, can be rearranged:
   social:
     facebook:        _username_
-    twitter:         _username_
-    google:          _number_
-    vk:              _username_
-    youtube:         _string___string___string_
     # vimeo:           _username_
     # vine:            _username_
     # spotify:         user/_number_
     # soundcloud:      _username_
-    # lastfm:          _username_
+    lastfm:          cosmokraymer
     # instagram:       _username_
     # flickr:          _string_@_string_
     # 500px:           _username_
@@ -80,7 +76,7 @@ author:
     # pinterest:       _username_
     # foursquare:      _number_
     # yelp:            _string_
-    # github:          _username_
+    github:          kraymer
     # stackoverflow:   _number_/_username_
     # npm:             _username_
     # hackernews:      _username_
@@ -92,8 +88,6 @@ author:
     # stumbleupon:     _username_
     # paypal:          _username_
 
-# Remove to disable Google Anaylics
-google_analytics_id: 'UA-84025722-2'
 
 # Setting a disqus subdomain will enable the comment section
 # disqus:            <username>
