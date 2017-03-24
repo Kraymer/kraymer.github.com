@@ -1,0 +1,38 @@
+--- 
+title: Resilient ID3 embedded ratings
+published: true
+excerpt: ""
+date: 2011-03-13
+tags: 
+- music-management
+---
+<p><img title="'Rating' column values reflected in the 'Grouping' column as raw text" src="/pub/img/posts/grouping-ratings.jpg" alt="'Rating' column values reflected in the 'Grouping' column as raw text" /></p>
+
+<p>Rating songs is by far the most time-consuming task to perform when you polish an album properties. Unlike the tagging process, it can not be automated (see <a href="/blog/howto-define-ratings-system">A look at the stars</a>) and may require a few full plays of the song to be accurate.<br />
+Because of that personal investment, ratings constitute one precious information that one can&rsquo;t afford to lose, yet there is <strong>no gold standard method to store them</strong>.</p>
+
+<h3>The infamous POPM tag</h3>
+
+<p>The classic way to store information (aka metadata) related to a mp3 file consists to embed it in its <a href="http://en.wikipedia.org/wiki/ID3">ID3 header</a>. Cover art, lyrics and identification properties (eg artist and album names, release date, etc.) are widespread metadata and thus are editable using any average music player.</p>
+
+<p>It gets trickier when considering ratings.<br />
+On one hand, there does exist a <em><a href="http://www.id3.org/id3v2.3.0#head-2452ec9cf8b42c5c117b518b69e129ff67970852">Popularimeter</a></em> (<em>POPM</em>) tag dedicated <em>&ldquo;to specify how good an audio file is&rdquo;</em>. Yay!<br />
+On the other hand, <em>POPM</em> tag has a value range spanning from 0 to 255 with no interpretation set in stone. The core of the issue is that the user interacts with a 5 star scale to rate a song whereas the software has to cope with an internal representation of 256 values. <br />
+As a result, every music player that supports this tag use its own heuristic to do the mapping, which makes <strong>ratings cross-application compatibility a nightmare</strong>.</p>
+
+<h3>Make the ratings persistent</h3>
+
+<p>Because ratings cannot be embedded as smoothly as other metadata, I advocate an <strong>hybrid method</strong> that couples two different ways to store the information :</p>
+
+<ul>
+<li>use the <strong>integrated ratings system</strong> of your media player to assign ratings. Feel free to use these ratings to customize your playback selection inside your player.<br />
+<em>Note: under the hood, some players store ratings in internal databases (eg Amarok, iTunes) whereas others write into the POPM tag.</em></li>
+<li>backup the player ratings periodically. Embedding data in the mp3 file and not being tied to the player representation is the key here.<br />
+Screw the <em>POPM</em> tag. Just choose a <strong>common editable field</strong> which had no use for you until now and dump your ratings into it, in my case I decided to go with the <em>Grouping</em> tag.<br />
+Keep this field in sync with your player ratings and use it as reference for the day you&rsquo;ll need to migrate your ratings to comply with another music player.</li>
+</ul>
+
+
+<p>Watch the <a href="http://www.youtube.com/watch?v=Qb118a6HWA8">screencast</a> to see this method applied to the transfer of ratings from iTunes to MediaMonkey.</p>
+
+<p><iframe src="http://www.youtube.com/embed/WalzAdkOf6M?wmode=transparent" allowfullscreen frameborder="0" height="417" width="500"></iframe></p>

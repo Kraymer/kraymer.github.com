@@ -1,6 +1,8 @@
 ---
 layout: page
 title: About
+image: /public/img/about-le_cri.jpg
+order: 9
 ---
 
 {% comment %}

@@ -1,0 +1,18 @@
+--- 
+title: Introducing replica, the id3 cloner CLI
+published: true
+excerpt: ""
+date: 2012-04-30
+tags:
+- music-management
+- python
+- open-source
+---
+<p>An mp3 file is made up of a metadata header prepended to the audio data blocks. While the id3 header can be edited to enrich the file description, the audio data is a result of a lossy compression and cannot be enhanced <em>a posteriori</em>.<br />
+So, to upgrade the audio quality of a mp3 file, you have to acquire a new &ndash; better &ndash; copy of it.</p>
+
+<p>How do you cope then with the migration of the id3 <em>intel</em> (such as <a href="/blog/resilient-id3-embedded-ratings">ratings</a> information) contained in the original files?
+<a href="http://www.softpointer.com/tr.htm">Tag&amp;Rename</a> for mac is yet to come (<em>sigh</em>) and this specific problem looked simple enough that I decided to code a tool to solve it.</p>
+
+<p>Replica is a python script that enables you to copy id3 metadata between files (and more). <br />
+Go to the <strong><a href="https://github.com/KraYmer/replica">project homepage</a></strong> for more infos, or just start using it by typing <code>pip install replica</code>.</p>
