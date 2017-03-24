@@ -1,0 +1,158 @@
+--- 
+layout: post
+title: "Set Up a Fully Automated Media Center on the Mac "
+published: false
+date: 2012-02-11
+---
+<p><em>This post is a mac-centric-nerd-aimed counter part of <a href="http://lifehacker.com/5475649/set-up-a-fully-automated-media-center" target="_blank">Set Up a Fully Automated Media Center</a> article on Lifehacker.</em></p>
+<p>Unsatisfied with my setup to watch downloaded movies, I acquired a new mac mini to play the role of media center. &nbsp;</p>
+<p>Now I have to resolve the crux inherent to such beasts : <strong>how to limit the work needed to make new media ready to consume asap ?</strong></p>
+<p style="text-align: center;"><img src="http://imgs.xkcd.com/comics/the_general_problem.png" alt="the general problem XKCD comic" /><br><em>The General Problem</em>, <a href="http://xkcd.com/974/">http://xkcd.com/974/</a></p>
+<h3>Step1 : The dream team</h3>
+<p>You will need a bunch of programs to collaborate together, here is the starting five:&nbsp;</p>
+<ul>
+<li><strong><a href="https://www.dropbox.com/downloading">Dropbox</a></strong>&nbsp;to trigger actions from the outside</li>
+<li><strong><a href="http://www.noodlesoft.com/hazel.php" title="Hazel" target="_blank">Hazel</a></strong>&nbsp;to map actions with file inputs&nbsp;</li>
+<li><strong><a href="http://code.google.com/p/periscope/" title="periscope" target="_blank">periscope</a></strong>&nbsp;to get episodes subtitles as fast as possible</li>
+<li><strong><a href="http://www.transmissionbt.com/download/" title="Transmission" target="_blank">Transmission</a></strong> is the leader bittorrent client on mac, and may be of some use (if it's your thing)</li>
+<li>a media files organizer that rename and move files around. I wrote a limited python script tailor-made for my needs,&nbsp;eating my own <strong><a href="https://github.com/KraYmer/curry" title="curry" target="_blank">curry</a></strong>. I didn't investigate much but <strong><a href="https://github.com/dbr/tvnamer" target="_blank">tvnamer</a></strong> may be a better choice for you.<em><br /></em></li>
+</ul>
+<p>And I suggest some more to complete the applications stack :</p>
+<ul>
+<li><strong><a href="http://www.ted.nu/download.php" title="ted" target="_blank">ted</a></strong> the torrent episod downloader to get the newest episodes as fast as possible</li>
+<li><strong><a href="http://mobilemouse.com/" title="Mobile air mouse" target="_blank">Mobile air mouse</a></strong> universal remote to control all your media applications from your iphone</li>
+<li><strong><a href="http://www.plexapp.com/getplex/" target="_blank">Plex</a>&nbsp;</strong>easy to use interface on your TV to experience your media (make sure to check the&nbsp;<a href="http://wiki.plexapp.com/index.php/Screencasts">official screencasts</a>&nbsp;and this&nbsp;<a href="http://wiki.plexapp.com/index.php/Keyboard">keyboard cheat sheet</a>&nbsp;if you give it a try)</li>
+</ul>
+<p>&nbsp;</p>
+<p style="text-align: center;"><img src="/images/plex-interface.jpg" alt="Plex interface" style="display: block; margin-left: auto; margin-right: auto;" /><em>Appealing Plex interface&nbsp;</em></p>
+<h3>Step2 : Setup your folders</h3>
+<p>If you are dealing with a <em>true</em> media center with no keyboard nor mouse, you must first create a virtual channel to communicate with it. &nbsp;<br />No need to reinvent the wheel here, we'll use the good ol' Dropbox. &nbsp;<br />The idea consists to dedicate a folder to trigger specific Hazel actions, a place <strong>where the automation magic starts</strong>. &nbsp;</p>
+<p>Magic. Hazel. Dropbox. Let's give this hub folder a <a href="http://www.urbandictionary.com/define.php?term=mazeltof" target="_blank">welcoming name</a> : &nbsp;</p>
+<div class="CodeRay">
+  <div class="code"><pre>mkdir ~/Dropbox/Mazelbox</pre></div>
+</div>
+
+<p>You need another folder to use as a <strong>buffer zone for incoming files</strong>. Inside, create subfolders that you will assign later in Hazel to different workflows. &nbsp;</p>
+<div class="CodeRay">
+  <div class="code"><pre>mkdir ~/Downloads/Incoming
+cd !$
+mkdir Complete
+mkdir Seeding</pre></div>
+</div>
+
+<p>Last but not least, define your <strong>library structure</strong>. I keep mine simple :</p>
+<div class="CodeRay">
+  <div class="code"><pre>mkdir ~/Movies/Movies
+mkdir ~/Movies/TV_Shows
+cd !$
+mkdir Dexter // one folder per show...</pre></div>
+</div>
+
+<p />
+
+<h3>Step3 : Piece the elements together</h3>
+<p style="text-align: center;"><img src="/images/metromedia.jpg" alt="files movements along the processing chain" /><br><em>It's *that* simple.</em></p>
+<p>List of movements : &nbsp;</p>
+<p>➊ ➙&nbsp;➌ Hazel bring torrents to your <em>Mazelbox</em> on your macs. Under the hood, Dropbox synchronization takes place and <em>Mazelbox</em> folder is updated on the mac mini.</p>
+<p>❷&nbsp;➙&nbsp;➌ An ifthisthenthat.com <a href="http://ifttt.com/recipes/15358" title="ifttt recipe" target="_blank">recipe</a> write html files in your <em>Mazelbox</em> when tv shows subtitles are released.</p>
+<p>➌ ➙ ➍ Hazel move .html and .torrent files from <em>Mazelbox</em> to <em>Incoming.</em></p>
+<p>➍ ➙ ➎ | ➏ Transmission watch <em>Input</em> folder and launch downloads of torrents files. <em>Optional :&nbsp;</em>trackers names can be specified to redirect completed downloads to <em>Seeding.</em></p>
+<p>➎ ➙ ➏ Hazel wait a given period of time during which movies are seeded and then move them to <em>Completed</em></p>
+<p>➏ ➙ ➐ curry move media file to appropriate destination.</p>
+<p>➏ ➙ ➐ curry move srt file to appropriate destination.</p>
+<p><br />Have a hard time connecting the dots ? Look at the screenshots below that illustrate the steps of the automation setup.</p>
+
+<div id="myCarousel" class="carousel slide">
+	<div class="carousel-inner">
+		  <div class="item active">
+		    <img src="/images/mediacenter-automation-01.jpg" alt="">
+		    <div class="carousel-caption">
+		      <h4>Transmission</h4>
+		  	  <p>Set input and output directory in the <i>Transfers > Adding</i> panel</p>	
+		  	  </div>
+		  </div>
+		  <div class="item">
+		    <img src="/images/mediacenter-automation-02.png" alt="">
+		    <div class="carousel-caption">
+		      <h4>Transmission</h4>
+		  	  <p>Redirect downloads to another output directory for torrent trackers that require a minimum seed ratio</p>	
+		  	  </div>
+		  </div>
+		  <div class="item">
+		    <img src="/images/mediacenter-automation-03.png" alt="">
+		    <div class="carousel-caption">
+		      <h4>ifttt.com</h4>
+		  	  <p>Create a task for each tv show you want to get subtitles for.</p>	
+		  	  </div>
+		  </div>
+		  <div class="item">
+		    <img src="/images/mediacenter-automation-04.png" alt="">
+		    <div class="carousel-caption">
+		      <h4>Hazel</h4>	
+		  	  </div>
+		  </div>
+		  <div class="item">
+		    <img src="/images/mediacenter-automation-05.jpg" alt="">
+		    <div class="carousel-caption">
+		      <h4>Hazel</h4>
+		  	  <p>Using colors labels to track rules execution.</p>	
+		  	  </div>
+		  </div>
+		  <div class="item">
+		    <img src="/images/mediacenter-automation-06.jpg" alt="">
+		    <div class="carousel-caption">
+		      <h4>Hazel</h4>
+		  	  <p>Make good use of *Run shell script* action !</p>	
+		  	  </div>
+		  </div>
+		  <div class="item">
+		    <img src="/images/mediacenter-automation-07.jpg" alt="">
+		    <div class="carousel-caption">
+		      <h4>Hazel</h4>
+		  	  </div>
+		  </div>
+		  <div class="item">
+		    <img src="/images/mediacenter-automation-08.jpg" alt="">
+		    <div class="carousel-caption">
+		      <h4>Hazel</h4>	
+		  	  </div>
+		  </div>
+		  <div class="item">
+		    <img src="/images/mediacenter-automation-09.jpg" alt="">
+		    <div class="carousel-caption">
+		      <h4>Hazel</h4>
+		  	  <p>Rules applying to the seed folder</p>	
+		  	  </div>
+		  </div>
+		  <div class="item">
+		    <img src="/images/mediacenter-automation-10.jpg" alt="">
+		    <div class="carousel-caption">
+		      <h4>Hazel</h4>
+		  	  </div>
+		  </div>
+		  <div class="item">
+		    <img src="/images/mediacenter-automation-11.jpg" alt="">
+		    <div class="carousel-caption">
+		      <h4>Rules applying to the magic hub folder</h4>
+		  	  </div>
+		  </div>
+		  <div class="item">
+		    <img src="/images/mediacenter-automation-12.jpg" alt="">
+		    <div class="carousel-caption">
+		      <h4>html_to_srt.workflow</h4>
+		  	  <p>Use <i>curry --print_match</i> option to get filepath of the episod which name is mentioned in the input html filename. Call <i>periscope</i> on the found video filepath.</p>	
+		  	  </div>
+		  </div>
+		  <a class="left carousel-control" href="#myCarousel" data-slide="prev">‹</a>
+		  <a class="right carousel-control" href="#myCarousel" data-slide="next">›</a>
+	</div>
+</div>
+
+<script type="text/javascript">
+$(function(){
+   $('.myCarousel').carousel({ interval: false });
+});
+</script>
+
+<h3>Holy sh*t, it just works!</h3>
+<p>Watch this <a href="http://www.youtube.com/watch?v=Ab5A-jKYkmo" title="screencast" target="_blank">screencast</a> to appreciate the final result.<p />Back to normal in the next post, I'll adress an audio oriented topic. Word.</p>

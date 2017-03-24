@@ -24,7 +24,6 @@ group :jekyll_plugins do
    gem "jekyll-sitemap"
    gem "jekyll-gist"
    gem "jemoji"
-   gem "jekyll-paginate"
    gem "jekyll-redirect-from"
 end
 

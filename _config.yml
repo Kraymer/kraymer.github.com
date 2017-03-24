@@ -1,9 +1,12 @@
 # Dependencies
 gems:
   - jekyll-sitemap
+  - jekyll-github-metadata
 
 # Permalinks
 permalink:           pretty
+
+repository: kraymer/hydejack
 
 # Setup
 url:                 http://kray.me
@@ -12,14 +15,9 @@ url:                 http://kray.me
 # i.e. `http://<username>.github.io`
 baseurl:             ''
 
-title: Multa paucis
+title: Ex commito
 
-tagline:   "*Say much in few words*"
-
-
-# Pagination
-paginate:            5
-paginate_path:       '/page-:num/'
+tagline:   ''
 
 # Markdown enabled, however don't use more than one paragraph (enforced by `>`)
 description:         >
@@ -107,3 +105,11 @@ compress_html:
 
 sass:
   style:             compressed
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post

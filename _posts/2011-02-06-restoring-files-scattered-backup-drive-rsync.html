@@ -1,0 +1,74 @@
+--- 
+title: Restoring files scattered on a backup drive using rsync
+published: true
+excerpt: ""
+date: 2011-02-06
+tags: 
+- misc
+- unix
+---
+<p>I realized yesterday morning that some of the best tracks of my library had disappeared. It concerned artists of the &rsquo;S-U' section : the classic Shakira&rsquo;s <em>Laundry Service</em> was amputated from its masterpiece <em>Whenever, Wherever</em>, <em>Master Blaster Jammin</em> was missing from <em>Stevie’s Greatest Hits</em>, and so on.</p>
+
+<p>The deletion must have occurred months ago due to an unfortunate keystrokes sequence in iTunes. Fortunately, I had a 1 year old rsync backup of my music files on a dusty external hard drive. <br />
+In such a situation, what is the shortest path to get the precious gems back to their original location ?</p>
+
+<h3>Have a glimpse at the damages</h3>
+
+<p>In <em>Terminal.app</em>, execute <em><a href="http://en.wikipedia.org/wiki/Rsync">rsync</a></em> to list the files that have been wiped out of your drive since last backup. Something like :</p>
+
+{% highlight bash %}
+rsync -vnru --ignore-existing ~/Backup/\[STU\]/ ~/Music/\[STU\]/
+{% endhighlight %}
+
+<p>Options description:</p>
+
+<blockquote><p>-v, &mdash;verbose increase verbosity<br />
+-n, &mdash;dry-run show what would have been transferred <br />
+-r, &mdash;recursive recurse into directories<br />
+-u, &mdash;update skip files that are newer on the receiver<br />
+&mdash;ignore-existing skip updating files that exist on receiver</p></blockquote>
+
+<p>Note that it&rsquo;s the <em>-n</em> option which is responsible for only showing files and not initiating transfer (<em>dry run</em> aka simulation mode).</p>
+
+<h3>Separate the good from the bad</h3>
+
+<p>A problem with this recursive recovery method is that you will see re-emerge lame <a href="/blog/howto-define-ratings-system">1-star tunes</a> from the darkness, files that you deleted intentionally from your drive since the last backup.
+Use the <em>—exclude</em> option to filter these black sheeps.</p>
+
+<p>Refine your rsync command until it spits a file listing that suits you. Then drop the <em>-n</em> option to leave simulation mode and actually do the transfer, <em>for real</em> :</p>
+
+{% highlight bash %}
+rsync -vru --ignore-existing ~/Backup/\[STU\]/ ~/Music/\[STU\]/
+{% endhighlight %}
+
+<h3>Icing on the cake : iTunes import</h3>
+
+<p>For the iTunes users in the crowd, here is a trick to ease the import process of recovered tracks.</p>
+
+<ul>
+<li><p>log output of rsync command in a text file :</p>
+
+{% highlight bash %}
+rsync -vru --ignore-existing ~/Backup/\[STU\]/ ~/Music/\[STU\]/ > allPaths.txt
+{% endhighlight %}
+
+</li>
+<li><p>filter the text content to keep only audio files paths, save the result in a playlist :</p>
+
+{% highlight bash %}
+grep -i "\.mp3" allPaths.txt > audioRelPaths.m3u
+{% endhighlight %}
+
+</li>
+<li><p>filepaths must be made absolute so that iTunes can interpret them. Use <em>lam</em> utility to prepend the parent directory path :</p>
+
+{% highlight bash %}
+lam -s "/Users/flap/Music/\[STU\]/" audioRelPaths.m3u > audioAbsPaths.m3u
+{% endhighlight %}
+
+</li>
+<li><p>drag &amp; drop the m3u file on the iTunes dock icon to reimport all restored tracks in your library.</p></li>
+</ul>
+
+
+<p><iframe src="http://www.youtube.com/embed/fdi12C4zqY4?wmode=transparent" allowfullscreen frameborder="0" height="417" width="500"></iframe></p>
