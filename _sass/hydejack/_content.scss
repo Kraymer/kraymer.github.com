@@ -4,6 +4,8 @@
  * with a 25%-wide `.sidebar`.
  */
 
+$spacing-unit:     30px;
+
 .content {
   padding-top: 4rem;
   padding-bottom: 4rem;
@@ -23,4 +25,38 @@
     margin-left: 22rem;
     margin-right: 4rem;
   }
+}
+
+/**
+ * Articles
+ */
+article {
+    background: #faf9f5;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.05);
+    margin-bottom: $spacing-unit;
+    padding: 3em 3em 1em;
+
+    > .entry-content {
+
+        &:first-letter {
+            color: #b7b1a9;
+            display: inline-block;
+            float: left;
+            font-family: "Playfair Display";
+            font-size: 121px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 70px;
+            margin: 6px 10px 0 -5px;
+        }
+
+        &:first-line {
+            color: #787065;
+            font-family: "Playfair Display SC";
+            font-size: 1em;
+            font-style: normal !important;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+    }
 }
