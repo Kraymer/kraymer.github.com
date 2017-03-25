@@ -9,11 +9,11 @@ permalink:           pretty
 repository: kraymer/hydejack
 
 # Setup
-url:                 http://kray.me
+url:                 http://kray.me/hydejack
 
 # Set to '' in case of hosting on GitHub pages,
 # i.e. `http://<username>.github.io`
-baseurl:             ''
+baseurl:             'http://kray.me/hydejack'
 
 title: Ex commito
 
