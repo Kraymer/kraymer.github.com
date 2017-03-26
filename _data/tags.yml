@@ -13,26 +13,28 @@
 
 music-management:
   name: Music management
-  image: /hydejack/public/img/hyde.jpg
+  image: /public/img/musicmanagement.jpg
   color: '#949667'
   description: >
-    The pre Spotify era. Music management used to be a big thing. My old posts cover this theme. 
+    The pre Spotify era. Music management used to be a big thing and still is for me. My old posts cover this theme. 
 
 open-source:
   name: Open source
-  image: /hydejack/public/img/jekyll.jpg
+  image: /public/img/opensource.gif
   color: '#949667'
   description: |+
     Jekyll is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes.
-
-    [`F-dotfiles`{:style="background: rgba(128, 255, 255, 0.15)"}](https://github.com/Kraymer/F-dotfiles)
+        
+    :label: [`F-dotfiles`{:style="background: rgba(128, 255, 255, 0.15)"}](https://github.com/Kraymer/F-dotfiles)
     [`gists`{:style="background: rgba(128, 255, 255, 0.15)"}](https://github.com/Kraymer/)
     [`qifqif`{:style="background: rgba(128, 255, 255, 0.15)"}](https://github.com/Kraymer/qifqif)
+    &nbsp;&nbsp;&nbsp;
+    :link: [`issues`{:style="background: rgba(255, 128, 255, 0.15)"}](https://github.com/search?o=desc&q=author%3Akraymer+type%3Aissue&s=created&type=Issues)
 
 misc:
   shortname: "*"
   name: misc
-  image: /hydejack/public/img/jekyll.jpg
+  image: /public/img/back.jpg
   color: '#949667'
   description: >
     Jekyll is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes.
