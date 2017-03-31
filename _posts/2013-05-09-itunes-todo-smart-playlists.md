@@ -1,7 +1,6 @@
 ---
 title: Todo playlists
 published: true
-excerpt: Playlists as inputs to perform actions on your music library
 tags:
 - music-management
 - iTunes

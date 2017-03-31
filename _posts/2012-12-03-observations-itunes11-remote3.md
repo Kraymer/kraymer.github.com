@@ -1,7 +1,6 @@
 ---
 title: First observations on iTunes 11
 published: true
-excerpt: ""
 tags:
 - itunes
 - music-management

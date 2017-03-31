@@ -1,7 +1,6 @@
 --- 
 title: Take a seat and enjoy the musical ride
 published: true
-excerpt: On the different ways to consume your music library 
 date: 2011-06-20
 tags: 
 - music-management

@@ -1,7 +1,6 @@
 ---
 title: Pruning beets genre canonicalization tree
 published: true
-excerpt: How to define a subset of auhorized genres with beets *lastgenre* plugin 
 date: 2012-10-13
 tags:
 - music-management

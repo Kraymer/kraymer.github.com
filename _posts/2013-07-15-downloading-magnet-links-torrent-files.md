@@ -3,7 +3,6 @@ layout: note
 title: "Downloading magnet links as .torrent files"
 published: true
 date: 2013-07-15
-excerpt: ""
 tags:
 - misc
 ---
