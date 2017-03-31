@@ -13,7 +13,7 @@ url:                 http://kray.me/hydejack
 
 # Set to '' in case of hosting on GitHub pages,
 # i.e. `http://<username>.github.io`
-baseurl:             'http://kray.me/hydejack'
+baseurl:             ''
 
 title: Ex commito
 
@@ -21,10 +21,10 @@ tagline:   ''
 
 # Markdown enabled, however don't use more than one paragraph (enforced by `>`)
 description:         >
-  [`@kraymer`{:style="background: rgba(255, 255, 255, 0.15)"}](https://kray.me/about) technical musings
+  [`@kraymer`{:style="background: rgba(255, 255, 255, 0.15)"}](/about) technical musings
 
 # The tags listed as entries in the sidebar
-sidebar_tags:        [open-source, music-management, misc]
+sidebar_tags:        [open-source, music-management, misc, python]
 
 # Fallback image and color if not overwritten for tag or post
 image:               /public/img/back.jpg
@@ -54,7 +54,6 @@ author:
   # Comment/uncommet to show/hide
   # Icons appear in order, can be rearranged:
   social:
-    facebook:        _username_
     # vimeo:           _username_
     # vine:            _username_
     # spotify:         user/_number_
@@ -75,7 +74,7 @@ author:
     # foursquare:      _number_
     # yelp:            _string_
     github:          kraymer
-    # stackoverflow:   _number_/_username_
+    stackoverflow:   5181/kraymer
     # npm:             _username_
     # hackernews:      _username_
     # trello:          _firstname__lastname_

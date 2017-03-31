@@ -25,16 +25,24 @@ open-source:
   description: |+
     Jekyll is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes.
         
-    :label: [`F-dotfiles`{:style="background: rgba(128, 255, 255, 0.15)"}](https://github.com/Kraymer/F-dotfiles)
-    [`gists`{:style="background: rgba(128, 255, 255, 0.15)"}](https://github.com/Kraymer/)
+    <i class='fa fa-tags'></i> [`F-dotfiles`{:style="background: rgba(128, 255, 255, 0.15)"}](https://github.com/Kraymer/F-dotfiles)
+    [`python`{:style="background: rgba(128, 255, 255, 0.15)"}](/tag/python)
     [`qifqif`{:style="background: rgba(128, 255, 255, 0.15)"}](https://github.com/Kraymer/qifqif)
     &nbsp;&nbsp;&nbsp;
-    :link: [`issues`{:style="background: rgba(255, 128, 255, 0.15)"}](https://github.com/search?o=desc&q=author%3Akraymer+type%3Aissue&s=created&type=Issues)
+    <i class='fa fa-link'></i> [`issues`{:style="background: rgba(255, 128, 255, 0.15)"}](https://github.com/search?o=desc&q=author%3Akraymer+type%3Aissue&s=created&type=Issues)
 
 misc:
   shortname: "*"
-  name: misc
+  name: Miscellaneous
   image: /public/img/back.jpg
   color: '#949667'
   description: >
-    Jekyll is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes.
+    Whatever non music/code related.
+
+python:
+  name: Python
+  image: /public/img/opensource.gif
+  color: '#949667'
+  description: >
+    My langage of choice. I like the expressiveness and *batteries included* philosophy. I'm doing Django development for a living 
+    since the beginning of this year.

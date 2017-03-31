@@ -1,18 +1,15 @@
 ---
 layout: post
-excerpt: "Add comments slides and key pressed *overlay* to your asciicasts."
-title: Augmented terminal screencasts
-published: true
+title: Add live key pressed overlay to your asciicasts with keyriban
+published: false
 comments: true
 tags:
-- misc
 - open-source
 - python
 header:
   overlay_image: /assets/images/lena_river1.jpg
 ---
-
-asciicast elegant text-based approach has huge benefits, enabling copy-paste being the first.  
+Asciicast elegant text-based approach has huge benefits, enabling copy-paste being the first.  
 Yet, with no guiding voice track, the viewer comprehension of what happens on screen is seriously hampered.  
 What textual bits of information can we inject in the recording to make it clearer ?
 

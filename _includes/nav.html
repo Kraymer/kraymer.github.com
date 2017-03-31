@@ -3,8 +3,8 @@
     {% assign tag = site.data.tags[tag_key] %}
     <li>
       <a class="sidebar-nav-item {% if page.tag == tag_key %}active{% endif %}" href="{{ site.baseurl }}/tag/{{ tag_key }}/">
-      {% if tag.shortname %} {{ tag.shortname }}
-      {% else %} {{ tag.name }}
+      {% if tag.shortname %} {{ tag.shortname | capitalize }}
+      {% else %} {{ tag.name | capitalize }}
       {% endif %}
       </a>
     </li>

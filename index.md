@@ -7,5 +7,5 @@ layout: default
   {% assign content = post.content %}
   {% assign date = post.date %}
   {% include post.html post=post %}
-
+  {% include related.html post=post %}
 </div>

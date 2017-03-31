@@ -1,4 +1,5 @@
 --- 
+layout: note
 title: "Downloading magnet links as .torrent files"
 published: true
 date: 2013-07-15
@@ -6,7 +7,6 @@ excerpt: ""
 tags:
 - misc
 ---
-You know I move .torrent files around to [trigger remote downloads on my media center](http://kray.me/blog/set-up-automated-media-center-for-mac-mini/), right?
 
 Since magnets have been introduced in early 2012, **I needed a way to convert a magnet URI to torrent** and found [this tutorial](https://forum.utorrent.com/viewtopic.php?id=115820). It describes an elegant solution relying solely on a browser bookmark, that gets you a torrent file named after the hash of its content.
 

@@ -11,7 +11,6 @@ tags:
 ---
 
 Unlike most tags, 'genre' accept some latitude and is open to interpretation. In others words: a music management nightmare.
-
 The [hundreds variations of genres][3] in the nature are too numerous to be exploited for classification purposes. You gotta restrict yourself!
 
 **Figure a limited set of genres that fits your music tastes**. Focus on genres that don't overlap and partition your library into sets of comparable sizes.

@@ -9,7 +9,8 @@ date: 2012-12-03
 ---
 
 My quick feedback on iTunes 11 after having played few hours with it.
-
+<br>
+<br>
 ### Innovative expanded view
 
 ![](/public/img/posts/itunes11-expanded-view.jpg)
@@ -28,7 +29,7 @@ As a big fan of the [iTunes DJ/Remote app combo](/blog/itunes-dj-mode/), I was w
 I like that move. Although it was located in the *Playlists* section on previous versions, iTunes DJ was in fact a special mode built on top of them. Sitted above them, with its unique icon to differentiate it from real playlists.  
 No more inconsistency. iTunes is now in perpetual DJ mode, and fiddling with next songs is just one click away, great!  
 
-![](/public/img/posts/itunes11.jpg")
+![](/public/img/posts/itunes11.jpg)
 *Up next songs controls in iTunes and Remote*
 
 Unsurprisingly, upgrading to iTunes 11 breaks iTunes DJ mode on Remote too. So, **upgrading to Remote v3.0 is mandatory** and comes with its batch of changes :
