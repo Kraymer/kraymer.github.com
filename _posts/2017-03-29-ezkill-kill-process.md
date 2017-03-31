@@ -17,7 +17,9 @@ efficiency of aforementioned commands.
 **`ezkill`** list processes matching input pattern, `ps` style, 
 and add a letter prefix before each line. 
 This single letter plays the role of pid, you designate which processes to kill 
-by entering their letters at the prompt.  
+by entering their letters at the prompt. 
+
+<script type="text/javascript" src="https://asciinema.org/a/5dxi20xzerjxhw2fn1tdhqi47.js" id="asciicast-5dxi20xzerjxhw2fn1tdhqi47" async></script>
 
 So that's the trade-off: only the 26 first matching processes are displayed, 
 only one keystroke per process to kill is required. 
