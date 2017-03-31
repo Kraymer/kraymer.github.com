@@ -1,5 +1,6 @@
 # Dependencies
 gems:
+  - jekyll-feed
   - jekyll-sitemap
   - jekyll-github-metadata
 
