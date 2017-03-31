@@ -25,7 +25,7 @@ description:         >
   [`@kraymer`{:style="background: rgba(255, 255, 255, 0.15)"}](/about) technical musings
 
 # The tags listed as entries in the sidebar
-sidebar_tags:        [open-source, music-management, misc, python]
+sidebar_tags:        [open-source, music-management, misc]
 
 # Fallback image and color if not overwritten for tag or post
 image:               /public/img/back.jpg

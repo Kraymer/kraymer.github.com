@@ -41,7 +41,6 @@ misc:
 
 python:
   name: Python
-  image: /public/img/opensource.gif
   color: '#949667'
   description: >
     My langage of choice. I like the expressiveness and *batteries included* philosophy. I'm doing Django development for a living 
