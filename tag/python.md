@@ -1,6 +1,6 @@
 ---
 layout: blog-by-tag
-tag: gists
-permalink: /tag/open-source/gists/
+tag: python
+permalink: /tag/python/
 image: /public/img/opensource.jpg
 ---
