@@ -32,7 +32,7 @@
       </span> 
       <span style="float: right;">
           {% if post.edited %}
-              <a href="https://github.com/Kraymer/kraymer.github.com/commits/master/_posts/{{ post.date }}-{{ post.slug }}.md">
+              <a href="https://github.com/Kraymer/kraymer.github.com/commits/master/_posts/{{ post.date | date: '%Y-%m-%d' }}-{{ post.slug }}.md">
                 <i class='fa fa-history'></i> History
               </a>
           {% endif %}
