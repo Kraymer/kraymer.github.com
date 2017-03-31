@@ -2,9 +2,10 @@
 
 <article id="post-{{ post.id | slice: 1,9999 }}" class="post" role="article">
   <h1 class="post-title">
-  {% if include.link_title %}<a href="{{ post.url | prepend:site.baseurl }}">{% endif %}
+  {% if post.link %}<a href="{{ post.link }}">{% endif %}
     {{ post.title }}
-  {% if include.link_title %}</a>{% endif %}
+  {% if post.link contains "github.com" %}<i class='fa fa-github'></i>{% endif %}
+  {% if post.link %}</a>{% endif %}
   </h1>
 
   {% if post.tags.size > 0 %}
@@ -19,7 +20,6 @@
   {% else %}
   {% assign tags_content = '' %}
   {% endif %}
-
 
   <div id="expand-box">
       <span style="float: left;">

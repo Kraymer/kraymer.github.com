@@ -1,10 +1,10 @@
 --- 
 layout: post
 title: "ezkill, selective process killing made easy"
+date: 2017-03-29
 published: true
 edited: true
-date: 2017-03-29
-excerpt: ""
+link: https://github.com/Kraymer/ezkill
 tags:
 - open-source
 ---
