@@ -45,3 +45,9 @@ python:
   description: >
     My langage of choice. I like the expressiveness and *batteries included* philosophy. I'm doing Django development for a living 
     since the beginning of this year.
+
+unix:
+  name: Unix
+  image: /public/img/back.jpg
+  description: >
+    Whether it's Mac OS X at home or Ubuntu at work.
