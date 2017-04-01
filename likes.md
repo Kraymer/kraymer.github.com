@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Likes
+link: http://www.newsblur.com/social/rss/39542/kraymer
 order: 8
 ---
 
@@ -10,6 +11,6 @@ privacy and sponsored content became obvious.
 
 Nowadays, I send mails to my relatives when I want to share an interesting 
 page, but I'd like to take the habit to save all my liked urls to my 
-[blurblog](kraymer.newsblur.com).  
-The RSS feed is at [http://www.newsblur.com/social/rss/39542/kraymer](http://www.newsblur.com/social/rss/39542/kraymer).
+[blurblog](http://kraymer.newsblur.com).  
+
 
