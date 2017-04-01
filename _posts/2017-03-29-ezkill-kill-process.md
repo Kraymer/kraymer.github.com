@@ -6,8 +6,8 @@ published: true
 edited: true
 link: https://github.com/Kraymer/ezkill
 tags:
-- open-source
 - unix
+- open-source
 ---
 `killall` and `pkill -f` are the two most popular tools to send SIGTERM to all 
 processes running a specified command.
