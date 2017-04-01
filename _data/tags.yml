@@ -23,8 +23,8 @@ open-source:
   image: /public/img/opensource.gif
   color: '#949667'
   description: |+
-    Jekyll is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes.
-        
+    I've had the luck to discover open source years ago through the awesome [beets](http://beets.io) project. Since then, I've started a dozen of personal projects on my github, most of them still active. 
+
     <i class='fa fa-tags'></i> [`F-dotfiles`{:style="background: rgba(128, 255, 255, 0.15)"}](https://github.com/Kraymer/F-dotfiles)
     [`python`{:style="background: rgba(128, 255, 255, 0.15)"}](/tag/python)
     [`qifqif`{:style="background: rgba(128, 255, 255, 0.15)"}](https://github.com/Kraymer/qifqif)
