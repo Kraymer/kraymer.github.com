@@ -1,0 +1,75 @@
+h1 {
+    margin-bottom: 1rem;
+}
+
+img {
+    display:inline;
+    margin: 1rem 0 0;
+}
+
+pre {
+  background-color: #e2d2c2;
+}
+
+codefont {
+   font-family: $code-font-family;
+}
+
+.related {
+    padding-top: 0rem;
+}
+
+/* Image captions */
+img + em { display: block; text-align: center;}
+
+/* Post header box */
+
+#expand-box
+{
+    width: 100%;
+    padding: 0;
+}
+
+#expand-box-header
+{
+    margin: 0;
+    padding: 0 0 3px 2px;
+}
+.clear{
+    clear:both;
+}
+
+
+/**
+ * Articles - Drop cap code borrowed from libretto theme 
+ * <https://github.com/ferrolho/jekyll-theme-libretto>
+ */
+
+ $spacing-unit:     30px;
+
+article {
+
+    > .entry-content {
+
+        &:first-letter {
+            color: #b7b1a9;
+            display: inline-block;
+            float: left;
+            font-family: "Playfair Display";
+            font-size: 121px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 70px;
+            margin: 6px 10px 0 -5px;
+        }
+
+        &:first-line {
+            color: #787065;
+            font-family: "Playfair Display SC";
+            font-size: 1em;
+            font-style: normal !important;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+    }
+}

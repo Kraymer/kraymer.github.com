@@ -3,7 +3,7 @@
 // Inline and block-level code snippets. Includes tweaks to syntax highlighted
 // snippets from Pygments/Rouge and Gist embeds.
 
-pre code codefont {
+pre code {
   font-family: $code-font-family;
 }
 
@@ -23,7 +23,7 @@ pre {
   padding: 1rem;
   display: block;
   line-height: 1.4;
-  background-color: #e2d2c2;
+  background-color: #f9f9f9;
 
   /* Prevent code linebreaks and allow side-scrolling (much better readability on mobile) */
   overflow-x: auto;

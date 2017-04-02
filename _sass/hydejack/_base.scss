@@ -51,21 +51,3 @@ body, main {
   position: relative;
   overflow-x: hidden;
 }
-
-/* Image captions */
-img + em { display: block; text-align: center;}
-
-#expand-box
-{
-    width: 100%;
-    padding: 0;
-}
-
-#expand-box-header
-{
-    margin: 0;
-    padding: 0 0 3px 2px;
-}
-.clear{
-    clear:both;
-}
