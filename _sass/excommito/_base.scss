@@ -35,7 +35,8 @@ img + em { display: block; text-align: center;}
     margin: 0;
     padding: 0 0 3px 2px;
 }
-.clear{
+.clear
+{
     clear:both;
 }
 
@@ -45,7 +46,7 @@ img + em { display: block; text-align: center;}
  * <https://github.com/ferrolho/jekyll-theme-libretto>
  */
 
- $spacing-unit:     30px;
+$spacing-unit:     30px;
 
 article {
 
@@ -72,4 +73,23 @@ article {
             letter-spacing: 2px;
         }
     }
+}
+
+/**
+ * Flexbox layout (grids)
+ */
+
+.flexgrid {
+    display: flex;
+    overflow: hidden;
+}
+
+.flexleft {
+    text-align: left;
+    flex-grow: 1;
+    margin-right: 1em;
+}
+
+.flexright {
+    text-align: right;    
 }

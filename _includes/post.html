@@ -20,26 +20,24 @@
   {% else %}
   {% assign tags_content = '' %}
   {% endif %}
-
-  <div id="expand-box">
-      <span style="float: left;">
-      <div class="post-date">
-        <a href="https://github.com/Kraymer/hydejack/commits/master/_posts/{{ post.slug }}.html">
-        </a>
-        <time datetime="{{ post.date | date_to_long_string }}">{{ post.date | date_to_long_string }}</time>  
-        <span>{{ tags_content }}</span> 
+    <div class="flexgrid">
+      <div class="post-date flexleft">
+            <a href="https://github.com/Kraymer/hydejack/commits/master/_posts/{{ post.slug }}.html">
+            </a>
+            <time datetime="{{ post.date | date_to_long_string }}">{{ post.date | date_to_long_string }}</time>  
+            <span>{{ tags_content }}</span> 
       </div>
-      </span> 
-      <span style="float: right;">
+
+      <div class="flexright">
           {% if post.edited %}
+              <nobr>
               <a href="https://github.com/Kraymer/kraymer.github.com/commits/master/_posts/{{ post.date | date: '%Y-%m-%d' }}-{{ post.slug }}.md">
                 <i class='fa fa-history'></i> History
               </a>
+              </nobr>
           {% endif %}
-      </span>
-       <div class="clear"></div>
-  </div>
-
+      </div>    
+    </div>
   {% if post.description %}
     {% comment %}
       Adding the "message" class to the last (and usually only) paragraph of the description.
