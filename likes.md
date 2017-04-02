@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Likes
-link: http://www.newsblur.com/social/rss/39542/kraymer
+link: http://kraymer.newsblur.com
 order: 8
 ---
 
@@ -11,6 +11,8 @@ privacy and sponsored content became obvious.
 
 Nowadays, I send mails to my relatives when I want to share an interesting 
 page, but I'd like to take the habit to save all my liked urls to my 
-[blurblog](http://kraymer.newsblur.com).  
+[blurblog](http://kraymer.newsblur.com).
+
+<a href="https://www.newsblur.com/social/rss/39542/kraymer"><i class='fa fa-rss'></i> RSS likes</a>
 
 
