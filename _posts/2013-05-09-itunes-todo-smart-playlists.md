@@ -2,8 +2,8 @@
 title: Todo playlists
 published: true
 tags:
+- itunes
 - music-management
-- iTunes
 date: 2013-05-09
 ---
 

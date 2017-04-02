@@ -3,8 +3,8 @@ title: Take a seat and enjoy the musical ride
 published: true
 date: 2011-06-20
 tags: 
-- music-management
 - itunes
+- music-management
 ---
 <p>Forget for a moment the narrowed technical concepts usually dealt with on this blog, to focus on the most fundamental interaction one has with their music on a daily basis &hellip; <strong>playing</strong>. How can this be impacted by software?</p>
 
@@ -12,7 +12,7 @@ tags:
 
 <h3>Sunday driver</h3>
 
-<p style="text-align: center;"><img title="Festus and Bikey Dread of Sir Coxsone soundsystem" src="/pub/img/posts/coxsone-soundsystem.jpg" alt="Festus and Bikey Dread of Sir Coxsone soundsystem" /><br>
+<p style="text-align: center;"><img title="Festus and Bikey Dread of Sir Coxsone soundsystem" src="/public/img/posts/coxsone-soundsystem.jpg" alt="Festus and Bikey Dread of Sir Coxsone soundsystem" /><br>
 <em>Photo credits: Bernard Sohiez @ <a href="http://www.urbanimage.tv/reggae/sound+systems/reggae+selectors/rx026_jbs_y/">UrbanImage</a></em></p>
 
 <p>Before the mp3 era, media storage used to be pretty <a href="http://mozy.com/blog/wp-content/uploads/2009/08/physical-storage-vs-digital-storage.png">limited</a>. The need to step in every time a disc finished, forced user to adopt a selector mindset, constantly thinking ahead of the next tracks to play.</p>
@@ -23,7 +23,7 @@ tags:
 
 <h3>Passive passenger</h3>
 
-<p style="text-align: center;"><img title="Kuka Juke Bot" src="/pub/img/posts/kuka_juke_bot.jpg" alt="Kuka Juke Bot" /></p>
+<p style="text-align: center;"><img title="Kuka Juke Bot" src="/public/img/posts/kuka_juke_bot.jpg" alt="Kuka Juke Bot" /></p>
 
 <p><strong>Cutting loose from computer interactions is how I roll now</strong> (hosting iTunes on a headless Mac Mini, slashed of mouse and keyboard outgrowths, <em>does</em> help).<br />
 If you take this path, avoid a brutal break-up where your computer would be suddenly in charge of the mp3 kids. Indeed, the basic setup consisting of activating random mode, clicking play and praying for the best is rarely satisfactory. <strong>Selection based on pure randomness doesn&rsquo;t cut it</strong>.</p>
@@ -37,7 +37,7 @@ Once your custom-made smart playlist is done, promote it as the source of your p
 
 <h3>Backseat selector</h3>
 
-<p style="text-align: center;"><img title="Festus and Bikey Dread of Sir Coxsone soundsystem" src="/pub/img/posts/remote_ui.png" alt="Remote iphone application" /></p>
+<p style="text-align: center;"><img title="Festus and Bikey Dread of Sir Coxsone soundsystem" src="/public/img/posts/remote_ui.png" alt="Remote iphone application" /></p>
 
 <p>My music totally controlled by a machine, with no consideration for my current mood or specific requests whatsoever. It sounds a bit too rigid, let&rsquo;s see how to inject a dash of human judgment into the mix.</p>
 

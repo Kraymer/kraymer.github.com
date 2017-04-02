@@ -3,8 +3,8 @@ title: Pruning beets genre canonicalization tree
 published: true
 date: 2012-10-13
 tags:
-- music-management
 - beets
+- music-management
 - open-source
 - python
 ---
