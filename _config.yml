@@ -14,7 +14,7 @@ url:                 http://kray.me/hydejack
 
 # Set to '' in case of hosting on GitHub pages,
 # i.e. `http://<username>.github.io`
-baseurl:             ''
+baseurl: ''
 
 title: Ex commito
 
