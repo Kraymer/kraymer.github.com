@@ -1,0 +1,12 @@
+{% if page.previous.url %}
+    {% capture previous-url %}{{ page.previous.url }}{% endcapture %}
+  <!-- Prev/next link for homepage -->
+  {% else %}
+    {% capture previous-url %}{{ previous-post.url }}{% endcapture %}
+{% endif %}
+<script type="text/javascript">
+    $(function(){
+        $("a[href='previous-post']").attr('href', '{{ previous-url }}');
+        $("a[href='next-post']").attr('href', '{{ page.next.url }}');
+    });
+</script>

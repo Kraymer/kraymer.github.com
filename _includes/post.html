@@ -7,7 +7,6 @@
   {% if post.link contains "github.com" %}<i class='fa fa-github'></i>{% endif %}
   {% if post.link %}</a>{% endif %}
   </h1>
-
   {% include post_metadata.html %}
 
   {% if post.description %}
@@ -27,3 +26,5 @@
     </article>
 
 </article>
+
+{% include previous_next.html %}

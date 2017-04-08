@@ -19,6 +19,13 @@ codefont {
     padding-top: 0rem;
 }
 
+/* Dissimulate prev/next link in title */
+a.title:hover, a.title:visited, a.title:link, a.title:active
+{
+    text-decoration: none !important;
+    border-bottom: 0;
+}
+
 /* Image captions */
 img + em { display: block; text-align: center;}
 
