@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: "ezkill, selective process killing made easy"
+title: "<i>ezkill</i>, selective process killing made easy"
 date: 2017-03-29
 published: true
 edited: true
