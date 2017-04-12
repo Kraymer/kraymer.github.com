@@ -10,7 +10,7 @@ permalink: /:categories/:year/:month/:title/
 repository: kraymer/hydejack
 
 # Setup
-url:                 http://kray.me/
+url:                 http://kray.me
 
 # Set to '' in case of hosting on GitHub pages,
 # i.e. `http://<username>.github.io`
