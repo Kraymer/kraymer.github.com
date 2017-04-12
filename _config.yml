@@ -5,7 +5,7 @@ gems:
   - jekyll-github-metadata
 
 # Permalinks
-permalink:           pretty
+permalink: /:categories/:year/:month/:title/
 
 repository: kraymer/hydejack
 
