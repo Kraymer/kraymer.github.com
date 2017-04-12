@@ -7,6 +7,7 @@ tags:
 - music-management
 - open-source
 - python
+redirect_from: /blog/2012-10-13-customizing-beet-genres-canonicalization-tree
 ---
 
 Unlike most tags, 'genre' accept some latitude and is open to interpretation. In others words: a music management nightmare.

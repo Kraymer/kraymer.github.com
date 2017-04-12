@@ -5,6 +5,7 @@ tags:
 - itunes
 - music-management
 date: 2013-05-09
+redirect_from: /blog/2013-05-09-itunes-todo-smart-playlists
 ---
 
 ![iTunes screenshot with playlists in sidebar](/public/img/posts/management_playlists.jpg)
@@ -73,8 +74,8 @@ I prefer selecting a handful of songs to listen for a transit journey, rather th
 **Action?** Same as *Phone - Auto* but rated songs must be removed from playlist manually! 
  
 
-[1]:http://kray.me/blog/daily-routine-smart-playlist-filterings/ 
-[2]:http://kray.me/blog/resilient-id3-embedded-ratings/
+[1]:{{ site.baseurl }}{% post_url 2011-09-10-daily-routine-smart-playlist-filterings %} 
+[2]:{{ site.baseurl }}{% post_url 2011-03-13-resilient-id3-embedded-ratings %}
 [3]:http://www.jrtstudio.com/iSyncr-iTunes-for-Android
 [4]:https://pypi.python.org/pypi/replica
 [5]:http://beets.radbox.org/

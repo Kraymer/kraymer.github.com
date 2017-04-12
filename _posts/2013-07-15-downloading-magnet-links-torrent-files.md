@@ -5,6 +5,7 @@ published: true
 date: 2013-07-15
 tags:
 - misc
+redirect_from: /blog/2013-07-15-downloading-magnet-links-torrent-files
 ---
 
 Since magnets have been introduced in early 2012, **I needed a way to convert a magnet URI to torrent** and found [this tutorial](https://forum.utorrent.com/viewtopic.php?id=115820). It describes an elegant solution relying solely on a browser bookmark, that gets you a torrent file named after the hash of its content.

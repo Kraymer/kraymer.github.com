@@ -5,6 +5,7 @@ date: 2011-06-20
 tags: 
 - itunes
 - music-management
+redirect_from: /blog/2011-06-20-itunes-dj-mode
 ---
 <p>Forget for a moment the narrowed technical concepts usually dealt with on this blog, to focus on the most fundamental interaction one has with their music on a daily basis &hellip; <strong>playing</strong>. How can this be impacted by software?</p>
 

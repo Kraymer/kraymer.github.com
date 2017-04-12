@@ -5,6 +5,7 @@ tags:
 - itunes
 - music-management
 date: 2012-12-03
+redirect_from: /blog/2012-12-03-observations-itunes11-remote
 ---
 
 My quick feedback on iTunes 11 after having played few hours with it.
