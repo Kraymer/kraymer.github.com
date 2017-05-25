@@ -2,7 +2,7 @@
 
 Theme is based on Hydejack, the pretentious two-column [Jekyll](http://jekyllrb.com) theme derived from [Hyde](http://hyde.getpoole.com).
 
-## Why the fork
+## Why The Fork
 
 Ex commito theme features, in no particular order:
 
@@ -12,7 +12,6 @@ Ex commito theme features, in no particular order:
 - [x] last post on homepage
 - [x] latest commit hash in status bar
 - [x] *History* link in post header give access to source file history
-- [x] unobtrusive text sharing links in post header
+- [x] unobtrusive text social sharing links in post header
 - [x] *easter egg:* previous/next post navigation hidden in main logo à la Goooogle
 - [ ] comments powered by static man
-
