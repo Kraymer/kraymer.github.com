@@ -3,28 +3,15 @@
 <aside class="comments" role="complementary">
   <h2>Comments</h2>
 
-  <div id="disqus_thread"></div>
+  <form method="POST" action="https://api.staticman.net/v2/entry/eduardoboucas/staticman/gh-pages/comments">
+    <input name="options[redirect]" type="hidden" value="https://my-site.com">
+    <!-- e.g. "2016-01-02-this-is-a-post" -->
+    <input name="options[slug]" type="hidden" value="{{ page.slug }}">
+    <label><input name="fields[name]" type="text">Name</label>
+    <label><input name="fields[email]" type="email">E-mail</label>
+    <label><textarea name="fields[message]"></textarea>Message</label>
 
-  <script>
-    var disqus_config = function () {
-      this.page.url = '{{ site.url }}{{ site.baseurl }}{{ post.url }}';
-      this.page.identifier = '{{ post.id }}';
-    };
+    <button type="submit">Go!</button>
+  </form>
 
-    var loaded = false;
-    var disqus_thread_offsetTop = document.getElementById('disqus_thread').offsetTop;
-
-    window.addEventListener('scroll', function (e) {
-      if (!loaded && document.body.scrollTop + window.innerHeight >= disqus_thread_offsetTop) {
-        loaded = true;
-        var d = document, s = d.createElement('script');
-
-        s.src = '//{{site.disqus}}.disqus.com/embed.js';
-
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-      }
-    });
-  </script>
-  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
 </aside>
