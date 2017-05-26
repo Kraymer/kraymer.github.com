@@ -84,8 +84,8 @@ author:
     # paypal:          _username_
 
 
-# Setting a disqus subdomain will enable the comment section
-# disqus:            <username>
+# Comments
+staticman: true
 
 kramdown:
   math_engine:       mathjax
