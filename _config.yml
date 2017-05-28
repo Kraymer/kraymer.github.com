@@ -85,7 +85,7 @@ author:
 
 
 # Comments
-staticman: false
+staticman: true
 
 kramdown:
   math_engine:       mathjax
