@@ -7,6 +7,7 @@
       </h1>
       <br>
       {{ site.description | markdownify }}
+
     </div>
 
     <nav class="sidebar-nav font-accent" role="navigation">
@@ -18,14 +19,9 @@
       {% include social.html social=site.author.social %}
     </div>
     {% endif %}
-
     <small>
-     <em>Commit </em> <a href="https://github.com/Kraymer/kraymer.github.com/commit/{{ site.github.build_revision }}" title="Latest commitment"><codefont>{{ site.github.build_revision | slice: 0,6 }}</codefont></a></em> ⋅
-     <a href="https://github.com/Kraymer/kraymer.github.com/pulls?q=is%3Apr+is%3Aopen+label%3Adraft" title="Vote for the next post">Drafts</a> ⋅
-     <a href="http://kray.me/feed.xml" title="Subscribe to RSS feed">RSS <i class='fa fa-rss'></i></a>
+      <em>Latest commitment: <a href="https://github.com/Kraymer/kraymer.github.com/commit/{{ site.github.build_revision }}" title="Latest commitment"><codefont>#{{ site.github.build_revision | slice: 0,6 }}</codefont></a></em> ⋅
+        <a href="http://kray.me/feed.xml" title="Subscribe to RSS feed">RSS <i class='fa fa-rss'></i></a>
     </small>
-
-
-
-  </div>
+    </div>
 </header>
