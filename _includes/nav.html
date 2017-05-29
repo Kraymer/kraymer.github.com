@@ -10,19 +10,10 @@
     </li>
   {% endfor %}
 
-  {% comment %}
-    The code below dynamically generates a sidebar nav of pages with
-    `layout: page` in the front-matter. See readme for usage.
-  {% endcomment %}
-
-  {% assign pages_list = site.pages | sort:"order" %}
-  {% for node in pages_list %}
-    {% if node.title != null %}
-      {% if node.layout == "page" %}
-      <li>
-        <a class="sidebar-nav-item {% if page.url == node.url %}active{% endif %}" href="{{ node.url | prepend:site.baseurl }}">{{ node.title }}</a>
-      </li>
-      {% endif %}
-    {% endif %}
-  {% endfor %}
+  <li><span class="sidebar-nav-item"><a href="/likes">Likes</a> /
+  <a href="https://github.com/Kraymer/kraymer.github.com/pulls?q=is%3Apr+is%3Aopen+label%3Adraft" title="Vote for the next post">Drafts</a> /
+  <a href="https://github.com/Kraymer/kraymer.github.com/issues?q=is%3Aissue+is%3Aopen+label%3A%22project+idea%22" title="Vote for the next open source project">Ideas</a> /
+  <a href="/now" title="What I'm doing now">Now</a></span>
+  </span>
+  </li>
 </ul>
