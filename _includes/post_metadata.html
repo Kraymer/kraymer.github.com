@@ -16,13 +16,13 @@
   <div class="post-metadata flexleft">
         <a href="https://github.com/Kraymer/hydejack/commits/master/_posts/{{ post.slug }}.html">
         </a>
-        <time datetime="{{ post.date | date_to_long_string }}">{{ post.date | date_to_long_string }}</time>  
-        <span>{{ tags_content }}</span><br> 
+        <time datetime="{{ post.date | date_to_long_string }}">{{ post.date | date_to_long_string }}</time>
+        <span>{{ tags_content }}</span><br>
         <i class='fa fa-share-alt'></i>
         {% capture post_url_safe %}{{ post.url | absolute_url | url_encode }}{% endcapture %}
         {% capture post_title_safe %}{{ post.title | url_encode}}{% endcapture %}
-        <a href="https://news.ycombinator.com/submitlink?u={{ post_url_safe }}&amp;t={{ post_title_safe }}" target='_blank'>HN</a>, 
-        <a href="http://www.reddit.com/submit?url={{ post_url_safe }}&title={{ post_title_safe }}" target='_blank'>reddit</a> or 
+        <a href="https://news.ycombinator.com/submitlink?u={{ post_url_safe }}&amp;t={{ post_title_safe }}" target='_blank'>HN</a>,
+        <a href="http://www.reddit.com/submit?url={{ post_url_safe }}&title={{ post_title_safe }}" target='_blank'>reddit</a> or
         <a href="mailto:?subject={{ post_title_safe }}&amp;body={{ post_url_safe }}" target='_blank'>mail</a>
   </div>
   <div class="post-metadata flexright">
@@ -30,7 +30,12 @@
           <nobr>
           <a href="https://github.com/Kraymer/kraymer.github.com/commits/master/_posts/{{ post.date | date: '%Y-%m-%d' }}-{{ post.slug }}.md">
             <i class='fa fa-history'></i> History</a>
+          </nobr><br>
+      {% endif %}
+      {% if post.issue %}
+          <nobr>
+          <a href="https://github.com/Kraymer/kraymer.github.com/issues/{{ post.issue }}"><i class='fa fa-commenting-o'></i> Comment</a>
           </nobr>
       {% endif %}
-  </div>    
+  </div>
 </div>
