@@ -1,17 +1,24 @@
 # Ex commito
 
-Theme is based on Hydejack, the pretentious two-column [Jekyll](http://jekyllrb.com) theme derived from [Hyde](http://hyde.getpoole.com).
+Theme is based on Hydejack (v5), the pretentious two-column [Jekyll](http://jekyllrb.com) theme derived from [Hyde](http://hyde.getpoole.com).
 
 ## Why The Fork
 
-Ex commito theme features, in no particular order:
+With *Ex commito* my intention is to improve the UX of original Hydejack theme by adding nerd features on top of it.
+By some aspects, *Ex commito* can be perceived like a polished front store to your blog repository. It brings some dynamic information (comments, post edits history) to the static nature of the site by leveraging (diverting?) some Github features. 
 
-- [x] dropcaps for article layout. Code taken from [libretto](https://github.com/ferrolho/jekyll-theme-libretto)
-- [x] *link* metadata attribute to attach link to article. Github logo is appended to article title when linking to a github
-  project.
-- [x] last post on homepage
-- [x] latest commit hash in status bar
-- [x] *History* link in post header give access to source file history
-- [x] unobtrusive text social sharing links in post header
-- [x] *easter egg:* previous/next post navigation hidden in main logo à la Goooogle
-- [ ] comments powered by static man
+Theme features, in no particular order:
+
+- an *article* layout with dropcaps. Code taken from [libretto](https://github.com/ferrolho/jekyll-theme-libretto)
+- *link* metadata attribute to attach link to a post title. Github logo is appended to article title when the link points to a github project
+- most recent post is featured on homepage
+- unobtrusive social sharing text links in post header
+
+- links to Github pages :
+  - *Drafts* link in side bar, points to issues (early drafts) or PR (drafts) of future posts
+  - *Fingerprint* link in side bar, points to last commit diff
+  - *History* link in post header, points to current post history
+  - *Comment* link in post header, point to current post issue thread
+
+
+
