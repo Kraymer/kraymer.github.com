@@ -2,11 +2,15 @@
 
 Theme is based on Hydejack (v5), the pretentious two-column [Jekyll](http://jekyllrb.com) theme derived from [Hyde](http://hyde.getpoole.com).
 
+**[Click here for demo](kray.me)**
+
 ## Why The Fork?
 
 With *Ex commito* my intention is to improve the UX of original Hydejack theme by adding nerd features on top of it.  
 
 By some aspects, *Ex commito* can be perceived like a polished front store to your blog repository. It brings some dynamic information (comments, post edits history) to the static nature of the site by leveraging (diverting?) some Github features. 
+
+![Ex commito screenshot](https://raw.githubusercontent.com/Kraymer/bulkdata/master/kraymer.github.com/screenshot.png)
 
 Theme is shipped with, in no particular order:
 
@@ -15,6 +19,7 @@ Theme is shipped with, in no particular order:
 - most recent post is featured on homepage
 - unobtrusive social sharing text links in post header
 - a *now page*
+- easter egg: navigation through posts *à la Google* by clicking the "o" of the site title
 - links to Github pages :
   - *Drafts* link in side bar, points to issues (early drafts) or PR (drafts) of future posts
   - *Fingerprint* link in side bar, points to last commit diff
