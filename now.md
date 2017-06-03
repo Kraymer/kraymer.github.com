@@ -1,6 +1,6 @@
 ---
 layout: page
-title: What I m doing now
+title: What I'm doing now
 published: true
 date: 2017-05-29
 ---
@@ -24,5 +24,5 @@ learnt on Duolinguo 2 years ago.
 
 I'll spent the next 3 weeks alone in Bordeaux and the goal will be to make daily sports activity.
 
-This update was May 29th, 2017.
+This update was {% include now_date.html page=page %}
 
