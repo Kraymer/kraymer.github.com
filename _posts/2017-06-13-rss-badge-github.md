@@ -8,7 +8,7 @@ tags:
 - open-source
 ---
 One not-so-known feature of github is its atom feeds to track projects releases deliveries.
-You can subscribe to it at `https://github.com/<user>/<project>/releases.atom`.
+You can subscribe to it at `https://github.com/<user>/<project>/releases.atom`
 
 I like that so much that I now add a ![releases badge](/public/img/posts/rss-badge.svg)
 badge to all my projects to make that more visible.
