@@ -1,32 +1,16 @@
 {% assign post = include.post %}
 
 <article id="post-{{ post.id | slice: 1,9999 }}" class="post" role="article">
-  <h1 class="post-title">
-    <a href="{{ post.url }}">{{ post.title }}</a>
-    {% if post.link %}
-        <a href="{{ post.link }}">
-        {% if post.link contains "github.com" %}
-            <i class='fa fa-github'></i>
-        {% else %}
-            <i class='fa fa-external-link'></i>
-        {% endif %}
-        </a>
-    {% endif %}
-  </h1>
   {% include post_metadata.html %}
 
-  {% if post.description %}
-    {% comment %}
-      Adding the "message" class to the last (and usually only) paragraph of the description.
-    {% endcomment %}
-    {% capture desc %}{{ post.description }}{:.message}{% endcapture %}
-    {{ desc | markdownify }}
-  {% endif %}
-
   <hr/>
-
+    {% if post.dropcaps %}
+        {% capture articleclass %}entry-content {% endcapture %}
+    {% else %}
+        {% capture articleclass %} {% endcapture %}
+    {% endif %}
     <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-        <div class="entry-content" itemprop="articleBody">
+        <div class="{{ articleclass }} post-content" itemprop="articleBody">
             {{ post.content }}
         </div>
     </article>
