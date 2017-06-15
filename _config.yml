@@ -18,7 +18,7 @@ baseurl: ''
 
 title: Ex commito
 
-tagline:   ''
+tagline: Kraymer's technical blog
 
 # Markdown enabled, however don't use more than one paragraph (enforced by `>`)
 description:         >
@@ -41,8 +41,8 @@ author:
   name:              'Fabrice Laporte'
 
   # This photo will be used in the about section
-  photo:             http://qwtel.com/public/img/flo.jpg
-  photo2x:           http://qwtel.com/public/img/flo@2x.jpg
+  photo:
+  photo2x:
 
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   # about:             |
@@ -84,9 +84,6 @@ author:
     # paypal:          _username_
 
 
-# Comments
-staticman: false
-
 kramdown:
   math_engine:       mathjax
   math_engine_opts:
@@ -110,3 +107,4 @@ defaults:
       type: posts
     values:
       layout: post
+      dropcaps: true
