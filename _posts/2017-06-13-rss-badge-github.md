@@ -1,6 +1,6 @@
 ---
-layout: note
 title: RSS subscribe badge for Github projects
+dropcaps: false
 date: 2017-06-13
 published: true
 edited: true

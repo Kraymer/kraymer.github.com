@@ -1,7 +1,7 @@
 ---
-layout: note
 title: "Get <i>high</i> to reach your github fans"
 date: 2017-04-12
+dropcaps: false
 published: true
 link: https://github.com/Kraymer/high
 issue: 7
