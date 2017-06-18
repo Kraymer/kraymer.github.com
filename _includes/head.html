@@ -50,7 +50,8 @@
 
   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
   <link rel="preload" href="{{ site.baseurl }}/public/css/non-essentials.css" as="style" onload="this.rel='stylesheet'">
-
+  {% capture last_date %}{{ site.posts.first.date }}{% endcapture %}
+  <link rel="shortcut icon" type="image/png" href="https://raw.githubusercontent.com/Kraymer/bulkdata/master/excommito/{{ last_date | slice: 5,2 }}/favicon_{{ last_date | slice: 8,2 }}.png">
   <style>
     html {
       font-family: {{ site.font }};
