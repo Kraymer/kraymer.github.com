@@ -4,6 +4,7 @@
     <div class="sidebar-about">
       <h1 class="font-accent">
         <a href="{{ site.baseurl }}/" class="title" style="text-decoration: none;">Ex c</a><a href="{{ site.baseurl }}/" class="prev-link" title="Previous post">o</a><a href="{{ site.baseurl }}/" class="title">mmit</a><a href="{{ site.baseurl }}/" class="next-link" title="Next post">o</a>
+        <a href="http://kray.me/feed.xml" title="Subscribe to RSS feed"><i class='fa fa-rss'></i></a>
       </h1>
       <br>
       {{ site.description | markdownify }}
@@ -20,8 +21,7 @@
     </div>
     {% endif %}
     <small>
-      <em>Latest commitment: <a href="https://github.com/Kraymer/kraymer.github.com/commit/{{ site.github.build_revision }}" title="Latest commitment"><codefont>#{{ site.github.build_revision | slice: 0,6 }}</codefont></a></em> ⋅
-        <a href="http://kray.me/feed.xml" title="Subscribe to RSS feed">RSS <i class='fa fa-rss'></i></a>
+      <em>Latest commitment: <a href="https://github.com/Kraymer/kraymer.github.com/commit/{{ site.github.build_revision }}" title="Latest commitment"><codefont>#{{ site.github.build_revision | slice: 0,6 }}</codefont></a></em>
     </small>
     </div>
 </header>
