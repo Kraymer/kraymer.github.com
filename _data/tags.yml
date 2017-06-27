@@ -16,14 +16,14 @@ music-management:
   image: /public/img/musicmanagement.jpg
   color: '#949667'
   description: >
-    The pre Spotify era. Music management used to be a big thing and still is for me. My old posts cover this theme. 
+    The pre Spotify era. Music management used to be a big thing and still is for me. My old posts cover this theme.
 
 open-source:
   name: Open source
   image: /public/img/opensource.gif
   color: '#949667'
   description: |+
-    I've had the luck to start my open source contributions years ago through the awesome [beets](http://beets.io) project. Since then, I've started a dozen of personal projects on my github, most of them still active. 
+    I've had the luck to start my open source contributions years ago through the awesome [beets](http://beets.io) project. Since then, I've started a dozen of personal projects on my github, most of them still active.
 
     <i class='fa fa-tags'></i> [`F-dotfiles`{:style="background: rgba(128, 255, 255, 0.15)"}](https://github.com/Kraymer/F-dotfiles)
     [`python`{:style="background: rgba(128, 255, 255, 0.15)"}](/tag/python)
@@ -39,11 +39,16 @@ misc:
   description: >
     Whatever non music/code related.
 
+jekyll:
+  name: Jekyll
+  description: >
+    The blog-aware static site generator which is behind Ex commito own commits.
+
 python:
   name: Python
   color: '#949667'
   description: >
-    My langage of choice. I like the expressiveness and *batteries included* philosophy. I'm doing Django development for a living 
+    My langage of choice. I like the expressiveness and *batteries included* philosophy. I'm doing Django development for a living
     since the beginning of this year.
 
 unix:
@@ -56,8 +61,8 @@ itunes:
   name: iTunes
   image: /public/img/musicmanagement.jpg
   description: >
-    iTunes is an horrible piece of bloated software. Yet, that's a decade I 
-    use it to play my mp3 as it makes my headless macmini setup *just works* 
+    iTunes is an horrible piece of bloated software. Yet, that's a decade I
+    use it to play my mp3 as it makes my headless macmini setup *just works*
     when used with [Remote](https://play.google.com/store/apps/details?id=hyperfine.hftunes.release)
-    and [iSyncr](https://play.google.com/store/apps/details?id=com.jrtstudio.iSyncrLite) 
+    and [iSyncr](https://play.google.com/store/apps/details?id=com.jrtstudio.iSyncrLite)
     android apps.
