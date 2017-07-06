@@ -5,8 +5,8 @@ layout: null
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
- <title>{{ site.title }}</title>
- <link href="{{ site.url }}{{ site.baseurl }}/atom_python.xml" rel="self"/>
+ <title>{{ site.title }} [python]</title>
+ <link href="{{ site.url }}{{ site.baseurl }}/tag/python/feed.xml" rel="self"/>
  <link href="{{ site.url }}{{ site.baseurl }}/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
  <id>{{ site.url }}{{ site.baseurl }}</id>
