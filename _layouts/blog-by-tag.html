@@ -7,7 +7,9 @@ layout: default
 {% if tag %}
   {% assign posts = site.tags[page.tag] %}
 
-  <h1 class="page-title">{{ tag.name }}</h1>
+  <h1 class="page-title">{{ tag.name }}
+    <a href="http://kray.me/tag/{{ page.tag }}/feed.xml" title="Subscribe to {{ tag.name }} RSS feed"><i class='fa fa-rss'></i></a>
+  </h1>
 
   {% if tag.description %}
     {% comment %}
