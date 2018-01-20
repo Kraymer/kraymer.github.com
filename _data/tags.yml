@@ -31,14 +31,6 @@ open-source:
     &nbsp;&nbsp;&nbsp;
     <i class='fa fa-link'></i> [`issues`{:style="background: rgba(255, 128, 255, 0.15)"}](https://github.com/search?o=desc&q=author%3Akraymer+type%3Aissue&s=created&type=Issues)
 
-misc:
-  shortname: "*"
-  name: Miscellaneous
-  image: /public/img/back.jpg
-  color: '#949667'
-  description: >
-    Whatever non music/code related.
-
 jekyll:
   name: Jekyll
   description: >

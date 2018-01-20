@@ -3,8 +3,6 @@ title: "Downloading magnet links as .torrent files"
 dropcaps: false
 published: true
 date: 2013-07-15
-tags:
-- misc
 redirect_from: /blog/2013-07-15-downloading-magnet-links-torrent-files
 ---
 

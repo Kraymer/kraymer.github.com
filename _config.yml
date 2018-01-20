@@ -25,7 +25,7 @@ description:         >
   [`@kraymer`{:style="background: rgba(255, 255, 255, 0.15)"}](mailto:kraymer+excommito@gmail.com) technical musings
 
 # The tags listed as entries in the sidebar
-sidebar_tags:        [open-source, music-management, misc]
+sidebar_tags:        [open-source, music-management]
 
 # Fallback image and color if not overwritten for tag or post
 image:               /public/img/back.jpg
