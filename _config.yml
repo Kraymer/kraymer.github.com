@@ -1,8 +1,9 @@
 # Dependencies
-gems:
+plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-github-metadata
+  - jemoji
 
 # Permalinks
 permalink: /:categories/:year/:month/:title/
