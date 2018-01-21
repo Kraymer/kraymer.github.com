@@ -25,7 +25,7 @@ Because we don't have that much space available we use the short `MMDD` format t
 
 <script src="https://gist.github.com/Kraymer/d014b40303dbfa4dda423efe5dba7a01.js"></script>
 
-This script generates the 365 different versions of the icon to cover the whole year, for a total size of 4,3M.
+This script generates the [365+ different versions](https://github.com/Kraymer/bulkdata/tree/master/excommito) of the icon to cover the whole year, for a total size of 4,3M.
 
 And to use the correct version of the favicon, just use these lines in head.html :
 
