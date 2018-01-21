@@ -5,6 +5,12 @@ h1 {
 img {
     display:inline;
     margin: 1rem 0 0;
+    border: 1px solid #021a40;
+}
+
+img.emoji {
+    margin: 0 0 0;
+    border: 0px !important;   
 }
 
 pre {
