@@ -27,6 +27,13 @@
   {% else %}{% if page.excerpt %}
   <meta name="description" content="{{ page.excerpt | strip_html | truncatewords: 50 }}">
   {% endif %}{% endif %}
+  {% if page.meta_robots %}    
+  <meta name="robots" content="{{ page.meta_robots }}">
+  {% elsif layout.meta_robots %}
+  <meta name="robots" content="{{ layout.meta_robots }}">
+  {% else %}
+  <meta name="robots" content="all">
+  {% endif %}
 
   <!--[if gt IE 8]><!---->
   <style>
@@ -38,7 +45,6 @@
 
   <noscript>
     <link rel="stylesheet" href="{{ site.baseurl }}/public/css/non-essentials.css">
-
     {% if site.load_google_fonts %}
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family={{ site.load_google_fonts }}">
     {% endif %}
@@ -48,6 +54,7 @@
     {% endif %}
   </noscript>
 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.0/gh-fork-ribbon.min.css" />
   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
   <link rel="preload" href="{{ site.baseurl }}/public/css/non-essentials.css" as="style" onload="this.rel='stylesheet'">
   {% capture last_date %}{{ site.posts.first.date }}{% endcapture %}
@@ -87,6 +94,7 @@
 
   <script>{% include scripts/load-js-deferred.min.js %}</script>
   <script>{% include scripts/jquery-3.2.0.slim.min.js %}</script>
+
 
   <!--[if lt IE 9]>
   <script src="https://unpkg.com/html5shiv/dist/html5shiv.min.js"></script>

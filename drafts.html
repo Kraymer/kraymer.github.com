@@ -1,0 +1,12 @@
+---
+layout:       page
+title:        Drafts
+permalink:    /drafts/
+meta_robots:  noindex
+---
+
+<p>These are draft posts for previewing.</p>
+
+{% for item in site.drafts %}
+  <p><a href="{{ item.url }}">{{ item.title }}</a></p>
+{% endfor %}

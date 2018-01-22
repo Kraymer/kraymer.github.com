@@ -109,3 +109,13 @@ defaults:
     values:
       layout: post
       dropcaps: true
+  - scope:
+      path: ""
+      type: drafts
+    values:
+      layout: draft
+
+collections:
+  drafts:
+    output: true
+    permalink: /:collection/:name

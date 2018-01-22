@@ -1,8 +1,6 @@
 ---
-layout: post
 title: Excommito theme, blog as you code
-permalink: excommito-theme
-published: true
+published: false
 draft: true
 link: https://github.com/Kraymer/kraymer.github.io
 tags:
