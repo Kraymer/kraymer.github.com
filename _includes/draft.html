@@ -1,0 +1,31 @@
+{% assign post = include.post %}
+
+<article id="post-{{ post.id | slice: 1,9999 }}" class="post" role="article">
+  {% include draft_metadata.html %}
+
+  <hr/>
+  
+<div class="note">
+  <h5>Draft In Progress</h5>
+  
+  <p>Sorry for the terse prose and bullet lists.
+  This draft is published to see if it gets some traction. <br>
+  I may never finish it, but 
+  <a href="https://github.com/Kraymer/kraymer.github.com/issues/18" title="Vote for this draft">voting for this draft</a> 
+  increase the chances that I do.</p>
+</div>
+
+    {% if post.dropcaps %}
+        {% capture articleclass %}entry-content {% endcapture %}
+    {% else %}
+        {% capture articleclass %} {% endcapture %}
+    {% endif %}
+    <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+        <div class="{{ articleclass }} post-content" itemprop="articleBody">
+            {{ post.content }}
+        </div>
+    </article>
+
+</article>
+
+{% include previous_next.html %}

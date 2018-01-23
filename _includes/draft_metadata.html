@@ -1,0 +1,39 @@
+  <h1 class="post-title">
+    {% if post.link %}
+        <a href="{{ post.link }}">
+        {% if post.link contains "github.com" %}<i class='fa fa-github'></i>
+        {% else %}<i class='fa fa-external-link'></i>
+        {% endif %}
+        </a>
+    {% endif %}
+    <a href="{{ post.url }}">{{ post.title }}</a>
+  </h1>
+
+{% if post.tags.size > 0 %}
+{% capture tags_content %}on {% endcapture %}
+{% for post_tag in post.tags %}
+  {% assign tag = site.data.tags[post_tag] %}
+  {% if tag %}
+    {% capture tags_content_temp %}{{ tags_content }}<a href="{{ site.baseurl }}/tag/{{ post_tag }}/">{{ tag.name }}</a>
+    {% if forloop.last == false %}<span>, </span>{% endif %}{% endcapture %}
+    {% assign tags_content = tags_content_temp %}
+  {% endif %}
+{% endfor %}
+{% else %}
+{% assign tags_content = '' %}
+{% endif %}
+
+<div class="flexgrid">
+  <div class="post-metadata flexleft">
+        Draft
+        <span>{{ tags_content }}</span><br>
+
+       
+  </div>
+  <div class="post-metadata flexright">
+          <nobr>
+          <a href="https://github.com/Kraymer/kraymer.github.com/commits/master/_drafts/{{ post.slug }}.md">
+            <i class='fa fa-history'></i> History</a>
+          </nobr>
+  </div>
+</div>
