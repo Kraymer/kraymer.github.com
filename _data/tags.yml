@@ -36,6 +36,11 @@ jekyll:
   description: >
     The blog-aware static site generator which is behind Ex commito own commits.
 
+methodology:
+  name: Methodology
+  description: >
+    My system of methods used to work efficiently as a software developer.
+
 python:
   name: Python
   color: '#949667'
