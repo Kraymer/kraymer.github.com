@@ -94,7 +94,6 @@
   <script>{% include scripts/load-js-deferred.min.js %}</script>
   <script>{% include scripts/jquery-3.2.0.slim.min.js %}</script>
 
-
-  <!--[if lt IE 9]>
-  <script src="https://unpkg.com/html5shiv/dist/html5shiv.min.js"></script>
-  <![endif]-->
+{% if site.google_analytics and jekyll.environment == 'production' %}
+{% include analytics.html %}
+{% endif %}

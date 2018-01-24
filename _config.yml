@@ -84,6 +84,7 @@ author:
     # stumbleupon:     _username_
     # paypal:          _username_
 
+google_analytics: UA-35566841-1
 
 kramdown:
   math_engine:       mathjax
