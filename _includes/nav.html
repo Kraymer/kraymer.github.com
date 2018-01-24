@@ -10,16 +10,10 @@
     </li>
   {% endfor %}
 
-  <li><span class="sidebar-nav-item">
-      <a href="{{ site.baseurl }}/" class="prev-link" title="Previous post">← </a>
-      <a href="/archives">Archives</a>
-      <a href="{{ site.baseurl }}/" class="next-link" title="Next post"> →</a>
-      </span>
-  </li>
-  <li><span class="sidebar-nav-item">
-      <a href="/likes" id='nav-likes'>Likes</a> |
-      <a href="/drafts" id='nav-drafts' title="Vote for the next post">Drafts</a> |
-      <a href="https://github.com/Kraymer/kraymer.github.com/labels/idea" id='nav-ideas'>Ideas</a>
-      </span>
+  <li>
+      <a class="sidebar-nav-item {% if page.tag == tag_key %}active{% endif %}" href="/archives"><i>Archives</i></a>
+      <a class="sidebar-nav-item {% if page.tag == tag_key %}active{% endif %}" href="/drafts" id='nav-drafts' title="Vote for the next post"><i>Drafts</i></a>
   </li>
 </ul>
+
+

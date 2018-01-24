@@ -20,8 +20,11 @@
       {% include social.html social=site.author.social %}
     </div>
     {% endif %}
+    <a href="{{ site.baseurl }}/" class="prev-link" title="Previous post">← </a>
+
     <small>
       <em>Latest commitment: <a href="https://github.com/Kraymer/kraymer.github.com/commit/{{ site.github.build_revision }}" title="Latest commitment"><codefont>#{{ site.github.build_revision | slice: 0,6 }}</codefont></a></em>
     </small>
+    <a href="{{ site.baseurl }}/" class="next-link" title="Next post"> →</a>
     </div>
 </header>
