@@ -30,8 +30,8 @@ It is based on Hydejack (v5), the pretentious two-column [Jekyll](http://jekyllr
 
 ## Crowdsource the editing process
 
-- *drafts* collection: drafts are published but clearly labeled as 'drafts'. A top-right github fork-like banner leads to a github issue page where one can vote for the posts drafts he want to see finished. 
-- it's shipping reduced to its simple expression : drafts are indexed by google and accessible on the site via the *Kinda related* links section when appropriate.
+- *drafts* collection: drafts are published but clearly labeled as 'drafts'. A warning sign in preamble of post content leads to a github issue page where one can vote for the posts drafts he want to see finished. 
+- it's shipping reduced to its simple expression : drafts are indexed by google and suggested in the *Kinda related* links section when appropriate. But they do not appear on the Archives section or when using the previous/next post navigation.
 
 
 
