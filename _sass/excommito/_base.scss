@@ -133,7 +133,11 @@ article {
     font-weight: 400;
     font-size: .75em;
   }
-
+  
+  a {
+    color: #ffce00 !important;
+  }
+  
   &:after {
     content: '\2692';
     color: #fc0;
