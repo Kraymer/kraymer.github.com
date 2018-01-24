@@ -1,7 +1,6 @@
 ---
 title: Excommito theme, blog as you code
 published: true
-draft: true
 link: https://github.com/Kraymer/kraymer.github.io
 tags:
 - jekyll

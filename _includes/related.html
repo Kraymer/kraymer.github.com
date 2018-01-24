@@ -15,5 +15,13 @@
         {% include post-list-item.html post=post format="%m/%d/%y" %}
       {% endif %}
     {% endfor %}
+    
+    {% for post in site.drafts %}
+        {% for tag in post.tags %}
+            {% if tag == tag_name %}
+                {% include post-list-item.html post=post format="%m/%d/%y" %}
+            {% endif %}
+        {% endfor %}
+    {% endfor %}
   </ul>
 </aside>

@@ -2,7 +2,6 @@
 title: Using emojis and meme effectively in Slack
 dropcaps: false
 published: true
-draft: true
 tags:
 - methodology
 ---
