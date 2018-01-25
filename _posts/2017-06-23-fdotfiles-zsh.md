@@ -5,7 +5,7 @@ dropcaps: true
 date: 2017-06-26
 published: true
 edited: true
-issue: 11
+comments: https://www.reddit.com/r/dotfiles/comments/6job8d/deep_in_fdotfiles_zsh_package/?st=jcuylvlm&sh=bf2ae47e
 tags:
 - unix
 - open-source

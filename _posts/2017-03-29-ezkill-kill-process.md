@@ -5,7 +5,7 @@ date: 2017-03-29
 published: true
 edited: true
 link: https://github.com/Kraymer/ezkill
-issue: 6
+comments: https://www.reddit.com/r/bash/comments/626ba1/pkill_f_with_a_confirmation_prompt/
 tags:
 - unix
 - open-source
