@@ -13,6 +13,12 @@ Emojis are the standard way to convey feelings in your writings.
 Memojis are the same but on steroids as they usually communicates a stronger position.
 Having a whole range of reactions at disposition encourages precise discussion.
 
+### Spread memes love with the `!kym` slack command
+
+Memes are part of the geek culture but you want everyone at your company to be at ease with them 
+so that discussions participants are on an equal footing.  
+In this vein, the `!kym` (for Know Your Memoji) slackbot macro can be [to continue]
+
 ### Part of your company culture
 
 When appropriate, create custom emojis related to events that happened in your company. You can start by uploading your company logo, but it can be more casual things like the favorite snack brand of a particularly suggar-addicted colleague etc.
