@@ -2,6 +2,7 @@
 title: Excommito theme, blog as you code
 published: true
 link: https://github.com/Kraymer/kraymer.github.io
+draft: true
 tags:
 - jekyll
 - open-source

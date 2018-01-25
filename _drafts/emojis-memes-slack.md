@@ -1,7 +1,8 @@
 ---
-title: Using emojis and meme effectively in Slack
+title: Manifesto for best use of emojis and memes in Slack
 dropcaps: false
 published: true
+draft: true
 tags:
 - methodology
 ---
