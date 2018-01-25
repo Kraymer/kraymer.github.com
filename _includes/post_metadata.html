@@ -43,9 +43,9 @@
             <i class='fa fa-history'></i> History</a>
           </nobr><br>
       {% endif %}
-      {% if post.issue %}
+      {% if post.comments %}
           <nobr>
-          <a href="https://github.com/Kraymer/kraymer.github.com/issues/{{ post.issue }}"><i class='fa fa-commenting-o'></i> Comment</a>
+          <a href="{{ post.comments }}" target='new'><i class='fa fa-commenting-o'></i> Comment</a>
           </nobr>
       {% endif %}
   </div>
