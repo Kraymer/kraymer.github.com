@@ -32,8 +32,7 @@
         <i class='fa fa-share-alt'></i>
         {% capture post_url_safe %}{{ post.url | absolute_url | url_encode }}{% endcapture %}
         {% capture post_title_safe %}{{ post.title | url_encode}}{% endcapture %}
-        <a href="https://news.ycombinator.com/submitlink?u={{ post_url_safe }}&amp;t={{ post_title_safe }}" target='_blank'>HN</a>,
-        <a href="http://www.reddit.com/submit?url={{ post_url_safe }}&title={{ post_title_safe }}" target='_blank'>reddit</a> or
+       <a href="https://twitter.com/intent/tweet?url={{ site.url }}{{ page.url }}{% if page.description %}&text={{ page.description | url_escape }}{% else %}{{ page.title | url_escape }}{% endif %}{% if site.twitter %}&via={{ site.twitter }}{% endif %}" title="Share on Twitter">Twitter</a> or
         <a href="mailto:?subject={{ post_title_safe }}&amp;body={{ post_url_safe }}" target='_blank'>mail</a>
   </div>
   <div class="post-metadata flexright">
