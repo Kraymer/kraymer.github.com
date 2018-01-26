@@ -7,4 +7,4 @@ draft: true
 
 - *blintzkrieg*: long term war against PEP8 errors
 - *gitlumberjack*: remove git remote branches *en masse*
-- PR *cheat -s branch git*
+- ~~PR *cheat -s branch git*~~
