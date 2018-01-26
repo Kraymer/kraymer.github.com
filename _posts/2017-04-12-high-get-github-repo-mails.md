@@ -4,7 +4,7 @@ date: 2017-04-12
 dropcaps: false
 published: true
 link: https://github.com/Kraymer/high
-issue: 7
+comments: https://www.reddit.com/r/commandline/comments/6553md/hi_githubers_extract_mail_addresses_of_your_repo
 tags:
 - python
 - open-source
