@@ -11,14 +11,6 @@ layout: default
     <a href="http://kray.me/tag/{{ page.tag }}/feed.xml" title="Subscribe to {{ tag.name }} RSS feed"><i class='fa fa-rss'></i></a>
   </h1>
 
-  {% if tag.description %}
-    {% comment %}
-      Adding the "message" class to the last (and usually only) paragraph of the description.
-    {% endcomment %}
-    {% capture desc %}{{ tag.description }}{:.message}{% endcapture %}
-    {{ desc | markdownify }}
-  {% endif %}
-
   <hr/>
 {% else %}
   {% assign posts = site.posts %}
