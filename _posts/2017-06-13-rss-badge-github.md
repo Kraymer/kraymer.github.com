@@ -1,5 +1,6 @@
 ---
 title: RSS subscribe badge for Github projects
+description: "Add a 'RSS subscribe' badge on top of your READMEs on github so people can be informed when new releases are shipped"
 dropcaps: false
 date: 2017-06-13
 published: true

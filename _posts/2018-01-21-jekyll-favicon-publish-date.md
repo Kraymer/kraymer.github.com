@@ -1,5 +1,6 @@
 ---
 title: Blog last publish date in favicon
+description: "Tutorial for your jekyll static blog: display date of last published post in your favicon image. Pregenerate 365 favicons using imagemagick."
 dropcaps: true
 date: 2018-01-21
 published: true

@@ -1,5 +1,6 @@
 ---
 title: "Deep in F-dotfiles : zsh package"
+description: "Exploring my dotfiles repository stow packages: my zsh setup"
 link: https://github.com/Kraymer/F-dotfiles/tree/master/zsh
 dropcaps: true
 date: 2017-06-26
