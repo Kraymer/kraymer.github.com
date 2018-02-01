@@ -26,6 +26,7 @@ group :jekyll_plugins do
    gem "jemoji"
    gem "jekyll-redirect-from"
    gem "jekyll-github-metadata"
+   gem 'jekyll-seo-tag'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

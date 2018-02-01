@@ -4,6 +4,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-github-metadata
   - jemoji
+  - jekyll-seo-tag
 
 # Permalinks
 permalink: /:categories/:year/:month/:title/
@@ -74,6 +75,7 @@ author:
     # yelp:            _string_
     github:          kraymer
     stackoverflow:   5181/kraymer
+    newsblur:        kraymer
     # npm:             _username_
     # hackernews:      _username_
     # trello:          _firstname__lastname_

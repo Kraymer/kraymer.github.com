@@ -49,6 +49,8 @@ GEM
       jekyll (~> 3.3)
     jekyll-sass-converter (1.5.1)
       sass (~> 3.4)
+    jekyll-seo-tag (2.1.0)
+      jekyll (~> 3.3)
     jekyll-sitemap (1.1.1)
       jekyll (~> 3.3)
     jekyll-watch (2.0.0)
@@ -103,6 +105,7 @@ DEPENDENCIES
   jekyll-gist
   jekyll-github-metadata
   jekyll-redirect-from
+  jekyll-seo-tag
   jekyll-sitemap
   jemoji
   minima (~> 2.0)
