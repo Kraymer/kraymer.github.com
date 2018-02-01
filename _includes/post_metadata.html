@@ -49,11 +49,3 @@
       {% endif %}
   </div>
 </div>
-
-  {% if post.description %}
-    {% comment %}
-      Adding the "message" class to the last (and usually only) paragraph of the description.
-    {% endcomment %}
-    {% capture desc %}{{ post.description }}{:.message}{% endcapture %}
-    {{ desc | markdownify }}
-  {% endif %}
