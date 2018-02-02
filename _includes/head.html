@@ -21,7 +21,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
   <title>{% if page.title == "Home" %}{{ site.title }} &middot; {{ site.tagline }}{% else %}{% if page.tag %}{{ site.data.tags[page.tag].name }}{% else %}{{ page.title | strip_html }}{% endif %} &middot; {{ site.title }}{% endif %}</title>
-
+  {% if page.description %}
   <meta name="description" content="{{ desc | markdownify | strip_html | truncatewords: 50 }}">
   {% else %}{% if page.excerpt %}
   <meta name="description" content="{{ page.excerpt | strip_html | truncatewords: 50 }}">
