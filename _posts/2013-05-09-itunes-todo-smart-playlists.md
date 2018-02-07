@@ -5,7 +5,8 @@ tags:
 - itunes
 - music-management
 date: 2013-05-09
-redirect_from: /blog/2013-05-09-itunes-todo-smart-playlists
+redirect_from:
+- /blog/itunes-todo-smart-playlists/
 ---
 
 ![iTunes screenshot with playlists in sidebar](/public/img/posts/management_playlists.jpg)
