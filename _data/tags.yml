@@ -20,6 +20,7 @@ music-management:
 
 open-source:
   name: Open source
+  rss: true
   image: /public/img/opensource.gif
   color: '#949667'
   description: |+
@@ -33,6 +34,7 @@ open-source:
 
 jekyll:
   name: Jekyll
+  rss: true
   description: >
     The blog-aware static site generator which is behind Ex commito own commits.
 
@@ -43,6 +45,7 @@ methodology:
 
 python:
   name: Python
+  rss: true
   color: '#949667'
   description: >
     My langage of choice. I like the expressiveness and *batteries included* philosophy. I'm doing Django development for a living
@@ -50,6 +53,7 @@ python:
 
 unix:
   name: Unix
+  rss: true
   image: /public/img/back.jpg
   description: >
     Whether it's Mac OS X at home or Ubuntu at work.
