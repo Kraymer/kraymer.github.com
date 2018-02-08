@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Kraymer technical musings: Open source, Python, Jekyll...
+title: "Kraymer technical musings: Open source, Python, Jekyll..."
 redirect_from: /blog
 ---
 
