@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Home
+title: Kraymer technical musings: Open source, Python, Jekyll...
+redirect_from: /blog
 ---
 
 <div class="blog-index">
