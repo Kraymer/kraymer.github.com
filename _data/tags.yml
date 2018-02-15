@@ -58,6 +58,13 @@ unix:
   description: >
     Whether it's Mac OS X at home or Ubuntu at work.
 
+git:
+  name: Git
+  rss: true
+  image: /public/img/back.jpg
+  description: >
+    Tips and one-liners for the git version control system
+    
 itunes:
   name: iTunes
   image: /public/img/musicmanagement.jpg

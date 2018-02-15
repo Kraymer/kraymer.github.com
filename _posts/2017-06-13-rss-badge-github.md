@@ -7,6 +7,7 @@ published: true
 edited: true
 tags:
 - open-source
+- git
 ---
 One not-so-known feature of github is its atom feeds to track projects releases deliveries.<br>
 You can subscribe to it at :
