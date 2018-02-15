@@ -8,6 +8,7 @@ draft: true
 
 Most recent on top :
 
+- `git blame | highlight -d " " -f 3 -gt 2018-01-01`: highlight in git blame output lines posterior to given date
 - *emospark* : function to format a number list as a 2 row emojis sequence in slack
 - *blintzkrieg*: long term war against PEP8 errors
 - ~~*gitlumberjack*: remove git remote branches *en masse*~~
