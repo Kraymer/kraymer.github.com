@@ -5,7 +5,7 @@ dropcaps: true
 date: 2018-02-16
 published: true
 edited: true
-comments: 
+comments: https://www.reddit.com/r/git/comments/7xupht/oneliner_highlight_lines_in_git_blame_output
 tags:
 - git
 - unix
