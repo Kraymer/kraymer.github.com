@@ -32,8 +32,10 @@ a.no-underline:hover, a.no-underline:visited, a.no-underline:link, a.no-underlin
     border-bottom: 0;
 }
 
-/* Image captions */
-img + em { display: block; text-align: center;}
+
+.center {
+  text-align: center;
+}
 
 /* Post header box */
 

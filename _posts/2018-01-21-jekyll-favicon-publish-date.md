@@ -15,10 +15,9 @@ As for every details of [*Ex commito* theme](https://github.com/Kraymer/kraymer.
 Basing your favicon on a thumbnail of your homepage sounds like a pretty dumb idea at first.  
 Obviously abstracting parts of the page details is essential to make the 128x128 square legible : I kept just the vertical split with artsy colourful sidebar and creamy right side. 
 
-{:refdef: style="text-align: center;"}
-![empty favicon](/public/img/favicon.png)
+{:.center}
+![empty favicon](/public/img/favicon.png)  
 *Favicon empty background*
-{: refdef}
 
 That's a gross preview of how the blog looks, but that does not bring any useful information and makes a shitty favicon for sure.  
 But put the date of your last post in the empty right part of the image and this icon becomes a thing of beauty, *erm*. The last publishing date identifies the state of the website like no other (metric). 
