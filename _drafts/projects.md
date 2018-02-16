@@ -8,8 +8,9 @@ draft: true
 
 Most recent on top :
 
-- `git blame | highlight -d " " -f 3 -gt 2018-01-01`: highlight in git blame output lines posterior to given date
-- *emospark* : function to format a number list as a 2 row emojis sequence in slack
-- *blintzkrieg*: long term war against PEP8 errors
-- ~~*gitlumberjack*: remove git remote branches *en masse*~~
-- ~~cheat: PR to limit search to a specific cheat~~
+:white_medium_square: *emospark*: function to format a number list as a 2 row emojis sequence in slack  
+:white_medium_square: *blintzkrieg*: long term war against PEP8 errors  
+
+[:ballot_box_with_check:](http://kray.me/2018/02/git-blame-highlight-lines-date/) ~~`git blame | highlight -d " " -f 3 -gt 2018-01-01`: highlight in git blame output lines posterior to given date~~  
+[:ballot_box_with_check:](https://github.com/Kraymer/ezlumberjack) ~~*gitlumberjack*: remove git remote branches *en masse*~~  
+[:ballot_box_with_check:](https://github.com/chrisallenlane/cheat/pull/371) ~~cheat: PR to limit search to a specific cheat~~
