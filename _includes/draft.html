@@ -4,17 +4,17 @@
   {% include draft_metadata.html %}
 
   <hr/>
-  
-<div class="note">
-  <h5>Draft In Progress</h5>
-  
-  <p>Sorry for the terse prose and bullet lists.<br>
-  I <a class="no-underline" href="mailto:kraymer@gmail.com?Subject=Feedbacks on draft '{{ post.title }}'" target="_top">welcome feedbacks</a> and <a class="no-underline" href="https://github.com/Kraymer/kraymer.github.com/edit/master/_drafts/{{ post.slug }}.md">pull requests</a>.<br>
-  I can't promise to finish this draft, but 
-  <a class="no-underline" href="https://github.com/Kraymer/kraymer.github.com/issues/18" title="Vote for this draft"><b>voting for it</b></a> 
-  increase the chances that I do.</p>
-</div>
-
+    {% if post.draftnote %}
+    <div class="note">
+      <h5>Draft In Progress</h5>
+      
+      <p>Sorry for the terse prose and bullet lists.<br>
+      I <a class="no-underline" href="mailto:kraymer@gmail.com?Subject=Feedbacks on draft '{{ post.title }}'" target="_top">welcome feedbacks</a> and <a class="no-underline" href="https://github.com/Kraymer/kraymer.github.com/edit/master/_drafts/{{ post.slug }}.md">pull requests</a>.<br>
+      I can't promise to finish this draft, but 
+      <a class="no-underline" href="https://github.com/Kraymer/kraymer.github.com/issues/18" title="Vote for this draft"><b>voting for it</b></a> 
+      increase the chances that I do.</p>
+    </div>
+    {% endif %}
     {% if post.dropcaps %}
         {% capture articleclass %}entry-content {% endcapture %}
     {% else %}
