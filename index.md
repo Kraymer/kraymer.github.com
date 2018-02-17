@@ -1,6 +1,8 @@
 ---
 layout: default
-title: "Kraymer technical musings: Open source, Python, Jekyll..."
+title: "Ex commito: Kraymer technical blog about Open source, Python, Git, Jekyll, etc"
+description: "My blog is a vitrine to my open source work : I document projects from the past, write
+a post when I release new stuff and track my future projects."
 redirect_from: 
 - /blog
 - /r
