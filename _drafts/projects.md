@@ -15,6 +15,9 @@ after a predefined delay elapsed.
 :white_medium_square: *emospark*: function to format a number list as a 2 row emojis sequence in slack  
 :white_medium_square: *blintzkrieg*: long term war against PEP8 errors  
 
-[:ballot_box_with_check:](http://kray.me/2018/02/git-blame-highlight-lines-date/) ~~highlight in git blame output lines posterior to given date~~  
-[:ballot_box_with_check:](https://github.com/Kraymer/ezlumberjack) ~~*gitlumberjack*: remove git remote branches *en masse*~~  
-[:ballot_box_with_check:](https://github.com/chrisallenlane/cheat/pull/371) ~~cheat: PR to limit search to a specific cheat~~
+<a class="no-underline" title="Highlighting lines in git blame output based on dates" href="http://kray.me/2018/02/git-blame-highlight-lines-date/">:ballot_box_with_check:</a>
+ ~~highlight in git blame output lines posterior to given date~~  
+<a class="no-underline" title="ezlumberjack deletes git remote branches en masse"  href="https://github.com/Kraymer/ezlumberjack">:ballot_box_with_check:</a>
+ ~~*gitlumberjack*: remove git remote branches *en masse*~~  
+<a class="no-underline" title="cheat pull request" href="https://github.com/chrisallenlane/cheat/pull/371">:ballot_box_with_check:</a>
+ ~~cheat: PR to limit search to a specific cheat~~
