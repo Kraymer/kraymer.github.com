@@ -7,13 +7,19 @@ published: true
 draft: true
 ---
 
-Most recent on top :
+## <img src="/public/img/posts/airplane-takeoff.png" width="32" class='emoji' />  Departures
+
 
 :white_medium_square: *duoflashprompt*: use [duolingo-api](https://github.com/KartikTalwar/Duolingo) 
 to inject word in zsh prompt. Type `$ duo TRANSLATION` to make the word go away. A new word will pop 
-after a predefined delay elapsed.  
-:white_medium_square: *emospark*: function to format a number list as a 2 row emojis sequence in slack  
+after a predefined delay elapsed.   
 :white_medium_square: *blintzkrieg*: long term war against PEP8 errors  
+
+## <img src="/public/img/posts/airplane-on_hold.png" width="32" class='emoji' />  On-hold
+
+:white_medium_square: *emospark*: function to format a number list as a 2 row emojis sequence in slack 
+
+## <img src="/public/img/posts/airplane-landing.png" width="32" class='emoji' />  Arrivals
 
 <a class="no-underline" title="Highlighting lines in git blame output based on dates" href="http://kray.me/2018/02/git-blame-highlight-lines-date/">:ballot_box_with_check:</a>
  ~~highlight in git blame output lines posterior to given date~~  

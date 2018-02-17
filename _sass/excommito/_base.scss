@@ -14,8 +14,9 @@ img {
 }
 
 img.emoji {
-    margin: 0 0 0;
-    border: 0px !important;       
+    border: 0px !important;  
+    position: relative;
+    top: 0.25em;   
 }
 
 pre {
