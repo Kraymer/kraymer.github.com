@@ -119,7 +119,8 @@ defaults:
     values:
       layout: draft
       draftnote: true
-
+      permalink: /:categories/:year/:month/:title/
+      
 collections:
   drafts:
     output: true
