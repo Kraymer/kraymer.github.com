@@ -12,7 +12,7 @@ tags:
 ---
 I use git stashes parsimoniously and generally prefer to do a _WIP_ commit when I must leave a 
 branch. Yet, sometimes, when I struggle to find a good implementation, I cannot resolve myself to 
-commit the code -even as a WIP- and prefer to stash it away.
+commit the code -even as a WIP- and prefer to stash it away.  
 So git stashes are places where I put my half-baked attempts for an hypothetic later use.
 
 As soon as I checkout a branch, I call `git log` to get back into the swing, if 
@@ -21,7 +21,7 @@ Checking available stashes on checkout is not as natural for me and I forget to 
 thus losing the code stashed or wasting my time rewriting it :sob: ... 
 
 I figured today that I could use the fact that default stashes messages are of the form 
-*"WIP on <branchname>:"* to grep them just after performing a checkout.
+*WIP on <branchname>:* to grep them just after performing a checkout.
 That gave birth to my .gitconfig `co` alias :
 
     co = "!f() { git checkout \"$@\" && git stash list | grep \"$1:\"; }; f"
