@@ -1,3 +1,7 @@
+- easter egg: navigation through posts *à la Google* by clicking the "o" of the site title
+
+- a *now page*
+
 # Ex commito
 
 Theme is based on Hydejack (v5), the pretentious two-column [Jekyll](http://jekyllrb.com) theme derived from [Hyde](http://hyde.getpoole.com).
@@ -18,9 +22,6 @@ Theme is shipped with, in no particular order:
 - *link* metadata attribute to attach link to a post title. Github logo is appended to article title when the link points to a github project
 - most recent post is featured on homepage
 - unobtrusive social sharing text links in post header
-- a *now page*
-- easter egg: navigation through posts *à la Google* by clicking the "o" of the site title
-- links to Github pages :
   - *Drafts* link in side bar, points to issues (early drafts) or PR (drafts) of future posts
   - *Fingerprint* link in side bar, points to last commit diff
   - *History* link in post header, points to current post history
