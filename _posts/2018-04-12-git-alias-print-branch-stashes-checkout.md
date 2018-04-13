@@ -21,8 +21,8 @@ Checking available stashes on checkout is not as natural for me and I forget to 
 thus losing the code stashed or wasting my time rewriting it :sob: ... 
 
 I figured today that I could use the fact that default stashes messages are of the form 
-*"WIP on `<branchname>`:"* to grep them just after performing a checkout.
-That gave birth to my `.gitconfig `co` alias :
+*"WIP on `<branchname>:"* to grep them just after performing a checkout.
+That gave birth to my `.gitconfig` `co` alias :
 
     co = "!f() { git checkout \"$@\" && git stash list | grep \"$1:\"; }; f"
 
