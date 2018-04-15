@@ -3,6 +3,7 @@ title: Custom css style for terminal codeblocks
 dropcaps: false
 published: true
 link: https://github.com/Kraymer/kraymer.github.com/commit/c722663
+comments: https://talk.jekyllrb.com/t/custom-css-style-for-terminal-codeblocks/1703
 tags:
 - jekyll
 ---
