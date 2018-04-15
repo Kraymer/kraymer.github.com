@@ -21,12 +21,37 @@ img.emoji {
     display: inline;
 }
 
-pre {
-  background-color: #e2d2c2;
+terminal {
+  padding: .5rem 1rem;
+  margin: .8rem 0;
+  color: #7a7a7a;
+  border-left: .25rem solid #309c0e;
+  background-color: #000000;
+  p:last-child {
+    margin-bottom: 0;
+  }
+
+  font-size: .75rem;
+  font-family: $code-font-family;
+  display: block;
+  line-height: 1.4;
+
+  /* Prevent code linebreaks and allow side-scrolling (much better readability on mobile) */
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+
+  /* Make code same width as regular text, and scroll the full page width on mobile */
+  margin-left: -1rem;
+  margin-right: -1rem;
 }
+
 
 codefont {
    font-family: $code-font-family;
+}
+
+pre code {
+  font-family: $code-font-family;
 }
 
 .related {
