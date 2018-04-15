@@ -17,7 +17,7 @@ The Github API makes getting stargazers public emails easy enough, but there is 
 When you comment on an issue by replying to the github notification
 emails, your email address may leak in the comment body like so :
 
-    On Wed, Oct 28, 2015 at 12:37 PM, kraymer kraymer+github@gmail.com wrote:
+> On Wed, Oct 28, 2015 at 12:37 PM, kraymer kraymer+github@gmail.com wrote:
 
 Interested to grab these pesky email addresses hidden in issue comments data ? Not a big fan of
 node.js for cli tools [^1] ?

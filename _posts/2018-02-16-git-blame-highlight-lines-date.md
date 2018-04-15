@@ -21,7 +21,9 @@ Here is an example, highlighting changes that happened from 2017 onward :
 
 The command is thus of the form : 
 
-<script src="https://gist.github.com/Kraymer/32608cd97cfd21a258ec40547eda7209.js"></script>
+~~~ shell
+git blame FILE | ack --nogroup --passthru '.*(?:DATE_1|...|DATE_N).*?\)'
+~~~
 
 Few explanations :
 - `passthru` option prints all lines, whether or not they match the expression

@@ -63,9 +63,11 @@ idle.
 Where things get interesting.
 We have `which` and `who` commands but the need for `where` arise much more frequently :
 
-    where() {
-        find . -name \*$1\*
-    }
+~~~ shell
+where() {
+    find . -name \*$1\*
+}
+~~~
 
 But the one function I would bring with me on a desert island is the one wrapping `ssh` command
 that attaches me to an existing tmux session once connected.

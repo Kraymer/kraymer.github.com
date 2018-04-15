@@ -24,12 +24,34 @@ But put the date of your last post in the empty right part of the image and this
 
 Because we don't have that much space available we use the short `MMDD` format to print the date. 
 
-<script src="https://gist.github.com/Kraymer/d014b40303dbfa4dda423efe5dba7a01.js"></script>
+~~~ python
+import os
+from PIL import Image, ImageDraw, ImageFont
+
+# Generates timestamped favicon images for every day of the year, store images in 12 folders (one per month).
+
+FONT = ImageFont.truetype(os.path.abspath(os.path.join('static', 'fonts', 'Avenir Next Condensed.ttc')), 60)
+
+for month in [str(x).zfill(2) for x in range(1, 13)]:
+    os.makedirs(month)
+    for day in [str(x).zfill(2) for x in range(1, 32)]:
+        img = Image.open('public/img/favicon.png')
+        canvas = ImageDraw.Draw(img)
+        canvas.text((65, 50), (str(day).zfill(2)), font=FONT, fill=(165, 85, 64))
+        canvas.text((65, 0), (str(month).zfill(2)), font=FONT, fill=(165, 85, 64))
+        img.save(os.path.join('%s/favicon_%s.png' % (month, day)))
+~~~
 
 This script generates the [365+ different versions](https://github.com/Kraymer/bulkdata/tree/master/excommito) of the icon to cover the whole year, for a total size of 4,3M.
 
-And to use the correct version of the favicon, just use these lines in head.html :
+And to use the correct version of the favicon, just use these lines in `head.html` :
 
-<script src="https://gist.github.com/Kraymer/83a83592711b1d9967b2c4f30a56621a.js"></script>
+{% raw %}
+~~~ liquid
+{% capture last_date %}{{ site.posts.first.date }}{% endcapture %}
+<link rel="shortcut icon" type="image/png" 
+href="https://raw.githubusercontent.com/Kraymer/bulkdata/master/excommito/{{ last_date | slice: 5,2 }}/favicon_{{ last_date | slice: 8,2 }}.png">
+~~~
+{% endraw %}
 
 Have a look in your browser tab for the result! :sparkles:
