@@ -30,12 +30,12 @@ co = "!f() { git checkout \"$@\" && git stash list | grep \"$1:\"; }; f"
 
 ... and gives following display :
 
-<terminal>
-$ git co master <br>
-Switched to branch 'master' <br>
-Your branch is up-to-date with 'origin/master'. <br>
-stash@{0}: WIP on master: c35edf60 add Curriculum vitae redirect <br>
-stash@{2}: WIP on master: 0977c37 Move <head></head> outside head.html <br>
-</terminal>
+```plaintext
+$ git co master 
+Switched to branch 'master' 
+Your branch is up-to-date with 'origin/master'. 
+stash@{0}: WIP on master: c35edf60 add Curriculum vitae redirect 
+stash@{2}: WIP on master: 0977c37 Move <head></head> outside head.html 
+```
 
 Tadaam! No more excuses to let stashes rot.  

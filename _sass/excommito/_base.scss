@@ -21,28 +21,41 @@ img.emoji {
     display: inline;
 }
 
-terminal {
-  padding: .5rem 1rem;
-  margin: .8rem 0;
-  color: #7a7a7a;
-  border-left: .25rem solid #309c0e;
-  background-color: #000000;
-  p:last-child {
-    margin-bottom: 0;
+$terminal-window-height: 12px;
+$border-radius: 10px;
+$base-color: #002b36;
+
+.language-plaintext {
+  position: relative;
+  margin-bottom: 1.5em;
+  padding: calc(#{$terminal-window-height} + 1em) 1em 1em;
+  border: 1px solid $border-color;
+  border-radius: $border-radius;
+  box-shadow: 0 0.25em 1em rgba($base-color, 0.25);
+  background-color: $base-color;
+
+  &::before {
+    content: "\2022 \2022 \2022";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: $terminal-window-height;
+    margin: 0;
+    padding: (0.5 * $terminal-window-height) 0;
+    background: mix($base-color, #fff, 25%);
+    color: mix($base-color, #fff, 50%);
+    font-size: (2 * $terminal-window-height);
+    line-height: 0;
+    text-indent: (0.5 * $terminal-window-height);
   }
 
-  font-size: .75rem;
-  font-family: $code-font-family;
-  display: block;
-  line-height: 1.4;
-
-  /* Prevent code linebreaks and allow side-scrolling (much better readability on mobile) */
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
-
-  /* Make code same width as regular text, and scroll the full page width on mobile */
-  margin-left: -1rem;
-  margin-right: -1rem;
+  .highlight {
+    margin: 0;
+    padding: 0;
+    background-color: initial;
+    color: #fff;
+  }
 }
 
 
