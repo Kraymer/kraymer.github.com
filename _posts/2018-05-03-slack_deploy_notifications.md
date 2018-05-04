@@ -2,6 +2,7 @@
 title: Creative use of <code>git blame</code> for slack deploys notifications
 dropcaps: true
 published: true
+comments: https://www.reddit.com/r/Slack/comments/8gu3ja/creative_use_of_git_blame_for_slack_deploys/
 tags:
 - git
 - slack
