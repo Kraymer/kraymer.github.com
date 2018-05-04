@@ -5,6 +5,7 @@ dropcaps: false
 date: 2018-05-05
 published: true
 edited: true
+comments: https://www.reddit.com/r/git/comments/8h341c/oneliner_show_commits_since_last_release/
 tags:
 - git
 - unix
