@@ -14,7 +14,7 @@ This git one-liner is useful for checking there is no omission in the changelog 
 release. 
 
 ~~~ shell
-alias git-log-since-rlz='git log --oneline --pretty=format:"%h%x09%an%x09%s" --no-merges `git describe --abbrev=0 --tags`..HEAD'
+alias git-log-since-rlz='git log --oneline --pretty=format:"%h%x09%an%x09%s" --no-merges $(git describe --abbrev=0 --tags)..HEAD'
 ~~~
 
 And you get a no fluff view of the commits that happened since last tag :
