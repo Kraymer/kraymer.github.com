@@ -14,10 +14,6 @@ pre {
   /* Prevent code linebreaks and allow side-scrolling (much better readability on mobile) */
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
-
-  /* Make code same width as regular text, and scroll the full page width on mobile */
-  margin-left: -1rem;
-  margin-right: -1rem;
 }
 
 pre code {
