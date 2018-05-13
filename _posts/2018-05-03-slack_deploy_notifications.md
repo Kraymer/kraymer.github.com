@@ -16,7 +16,7 @@ The goal is to make explicit who coded a deployed feature so that people (outsid
 *Slack deploy notification with authors faces*
 
 This technique requires to have facemojis named after each developer (4 first letters of firstnames).
-It relies on a `develop.md file that contains the changelog of the upcoming release, like so :
+It relies on a `develop.md` file that contains the changelog of the upcoming release, like so :
 
 ~~~~markdown
 Higher level release description 
