@@ -3,7 +3,7 @@ title: "Django: check for uncommited migrations on deploy"
 description: "Small check to integrate into your fabric deployment"
 dropcaps: false
 published: true
-draft: true
+comments: https://www.reddit.com/r/django/comments/8iysf4/check_for_uncommited_migrations_on_deploy/
 tags:
 - django
 - python
