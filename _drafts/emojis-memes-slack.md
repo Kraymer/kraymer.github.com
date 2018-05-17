@@ -7,6 +7,7 @@ draft: true
 tags:
 - methodology
 ---
+## Theory
 
 ### Use meme emojis (aka memojis) to convey new emotions
 
@@ -24,14 +25,27 @@ In this vein, the `!kym` (for Know Your Memoji) slackbot macro can be [to contin
 
 When appropriate, create custom emojis related to events that happened in your company. You can start by uploading your company logo, but it can be more casual things like the favorite snack brand of a particularly suggar-addicted colleague etc.
 
-### Emoji polls
+## Emoji linguo [emolinguo]
 
-Emojis are a cheap way to post polls, as long as you have a complete set of custom emojis to represent options
-
-### Emoji combos
-
-
-### Upgrade avatars to emoji status and get things done
+### Emoji faces [emofaces]
 
 Having avatar emojis helps to tackle issues/actions reported in slack, as commenting with an avatar means that person becomes the assignee.  
-Use the checkmark to signify that a task has been dealed with.
+Use the checkmark to signify that a task has been dealed with
+
+### Emoji polls [emopolls]
+
+Emojis are a cheap way to post polls, as long as you have a complete set of custom emojis to represent options.
+
+### Emoji combos [emocombos]
+
+Chaining emojis to accomplish advanced actions. 
+
+eg dropping the talking stick during a daily slack scrum meeting.
+
+![](https://raw.githubusercontent.com/Kraymer/kraymer.github.com/master/public/img/posts/emocombo.png)
+
+### Emoji stamps [emostamps]
+
+Use stamp emoji for announces that require explicit emofaces acknowledgment.
+
+![](https://raw.githubusercontent.com/Kraymer/kraymer.github.com/master/public/img/posts/emostamp.png)
