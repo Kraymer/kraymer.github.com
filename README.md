@@ -1,7 +1,3 @@
-- easter egg: navigation through posts *à la Google* by clicking the "o" of the site title
-
-- a *now page*
-
 # Ex commito
 
 Theme is based on Hydejack (v5), the pretentious two-column [Jekyll](http://jekyllrb.com) theme derived from [Hyde](http://hyde.getpoole.com).
