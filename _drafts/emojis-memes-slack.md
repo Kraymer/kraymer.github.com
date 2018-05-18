@@ -27,16 +27,27 @@ When appropriate, create custom emojis related to events that happened in your c
 
 ## Emoji linguo [emolinguo]
 
-### Emoji faces [emofaces]
+### Emoji face [emoface]
 
 Having avatar emojis helps to tackle issues/actions reported in slack, as commenting with an avatar means that person becomes the assignee.  
 Use the checkmark to signify that a task has been dealed with
 
-### Emoji polls [emopolls]
+_[TODO: example]_
 
-Emojis are a cheap way to post polls, as long as you have a complete set of custom emojis to represent options.
+### Emoji stamp [emostamp]
 
-### Emoji combos [emocombos]
+Use stamp emoji for announces that require explicit emofaces acknowledgment.
+
+![](https://raw.githubusercontent.com/Kraymer/kraymer.github.com/master/public/img/posts/emostamp.png)
+
+### Emoji check [emocheck]
+
+Commenting with a `:heavy_check_mark:` on a message to acknowledge it.
+The checkmark can be replaced by an emoface to acknowledge more formal stamped messages.
+
+_[TODO: example]_
+
+### Emoji combo [emocombo]
 
 Chaining emojis to accomplish advanced actions. 
 
@@ -44,8 +55,26 @@ eg dropping the talking stick during a daily slack scrum meeting.
 
 ![](https://raw.githubusercontent.com/Kraymer/kraymer.github.com/master/public/img/posts/emocombo.png)
 
-### Emoji stamps [emostamps]
+### Emoji poll [emopoll]
 
-Use stamp emoji for announces that require explicit emofaces acknowledgment.
+Emojis are a cheap way to post polls, as long as you have a complete set of custom emojis to represent options.
 
-![](https://raw.githubusercontent.com/Kraymer/kraymer.github.com/master/public/img/posts/emostamp.png)
+_[TODO: example]_
+
+### Emoji pub [emopun]
+
+A pun based on emoji.
+
+_[TODO: example]_
+
+### Emoji 0-day [em0day]
+
+Dropping a previously unreleased emoji in a conversation.
+
+_[TODO: example]_
+
+### Emoji bomb [emobomb]
+
+Use the `:timer_clock:`  + `:bomb:` emocombo to announce that the message will auto-destruct once read.
+
+_[TODO: example]_
