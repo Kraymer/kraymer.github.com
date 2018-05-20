@@ -34,12 +34,10 @@
         <a href="mailto:?subject={{ post_title_safe }}&amp;body={{ post_url_safe }}" target='_blank'>mail</a>
   </div>
   <div class="post-metadata flexright">
-      {% if post.edited %}
-          <nobr>
-          <a href="https://github.com/Kraymer/kraymer.github.com/commits/master/_posts/{{ post.date | date: '%Y-%m-%d' }}-{{ post.slug }}.md">
-            <i class='fa fa-history'></i> History</a>
-          </nobr><br>
-      {% endif %}
+      <nobr>
+      <a href="https://github.com/Kraymer/kraymer.github.com/commits/master/_posts/{{ post.date | date: '%Y-%m-%d' }}-{{ post.slug }}.md">
+        <i class='fa fa-history'></i> History</a>
+      </nobr><br>
       {% if post.comments %}
           <nobr>
           <a href="{{ post.comments }}" target='_blank'><i class='fa fa-commenting-o'></i> Comment</a>

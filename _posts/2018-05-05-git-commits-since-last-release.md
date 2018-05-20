@@ -4,7 +4,6 @@ description: "Git one-liner to show all commits that happened since last tag"
 dropcaps: false
 date: 2018-05-05
 published: true
-edited: true
 comments: https://www.reddit.com/r/git/comments/8h341c/oneliner_show_commits_since_last_release/
 tags:
 - git

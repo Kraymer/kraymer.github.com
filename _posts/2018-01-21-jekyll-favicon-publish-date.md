@@ -4,7 +4,6 @@ description: "Tutorial for your jekyll static blog: display date of last publish
 dropcaps: true
 date: 2018-01-21
 published: true
-edited: true
 comments: https://www.reddit.com/r/Jekyll/comments/7rwr7c/how_to_put_your_blog_last_publish_date_in_favicon/
 tags:
 - jekyll

@@ -2,7 +2,6 @@
 title: Custom css style for terminal codeblocks
 dropcaps: false
 published: true
-edited: true
 link: https://mademistakes.com/til/styling-language-specific-code-blocks/
 comments: https://talk.jekyllrb.com/t/custom-css-style-for-terminal-codeblocks/1703
 tags:

@@ -4,7 +4,6 @@ description: "Git one-liner to print related stashes entries just after switchin
 dropcaps: true
 date: 2018-04-12
 published: true
-edited: true
 comments: https://www.reddit.com/r/git/comments/8budlv/git_alias_to_print_related_stashes_when/?st=jfx3yhf1&sh=e48c9f6c
 tags:
 - git

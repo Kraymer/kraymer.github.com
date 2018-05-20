@@ -4,7 +4,6 @@ description: "Add a 'RSS subscribe' badge on top of your READMEs on github so pe
 dropcaps: false
 date: 2017-06-13
 published: true
-edited: true
 tags:
 - open-source
 - git

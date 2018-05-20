@@ -4,7 +4,6 @@ title: "<i>ezkill</i>, selective process killing made easy"
 description: "Alternative to killall and pkill to kill a bunch of processes. Smart CLI to kill processes using alphabetic index."
 date: 2017-03-29
 published: true
-edited: true
 link: https://github.com/Kraymer/ezkill
 comments: https://www.reddit.com/r/bash/comments/626ba1/pkill_f_with_a_confirmation_prompt/
 tags:
