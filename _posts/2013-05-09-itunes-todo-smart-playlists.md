@@ -1,5 +1,6 @@
 ---
 title: Todo playlists
+description: Using mp3 playlists as an organisational tool
 published: true
 tags:
 - itunes

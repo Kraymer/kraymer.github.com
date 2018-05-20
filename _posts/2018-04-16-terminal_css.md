@@ -1,5 +1,6 @@
 ---
 title: Custom css style for terminal codeblocks
+description: Apply specific css styling to differentiate terminal-shots from codes excerpts
 dropcaps: false
 published: true
 link: https://mademistakes.com/til/styling-language-specific-code-blocks/
