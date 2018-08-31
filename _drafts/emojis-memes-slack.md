@@ -1,5 +1,5 @@
 ---
-title: Manifesto for best use of emojis and memes in Slack
+title: [slack] Manifesto for best use of emojis and memes in Slack
 description: Use hacks of emojis and memes in slack, to obtain super powers that will help you get things done more efficiently in a funnier way.  
 dropcaps: false
 published: true
