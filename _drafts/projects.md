@@ -22,9 +22,9 @@ improve the file note he can pick another dev to launch the blintzkrieg on him f
 
 ## <img src="/public/img/posts/airplane-landing.png" width="32" class='emoji' />  Arrivals
 
-:ballot_box_with_check: `pingpong` slack bot to keep track of ping pong scores and compute ELO rankings
-:ballot_box_with_check: `kaomoji` slack bot that converts emojis to kaomojis
-:ballot_box_with_check: `kym` slack bot that print description of memojis
+:ballot_box_with_check: `pingpong` slack bot to keep track of ping pong scores and compute ELO rankings  
+:ballot_box_with_check: `kaomoji` slack bot that converts emojis to kaomojis  
+:ballot_box_with_check: `kym` slack bot that print description of memojis  
 <a class="no-underline" title="KnowYourMeme definitions web scraper"  href="https://github.com/Kraymer/memedict">:ballot_box_with_check:</a>
  ~~*memedict*: KnowYourMeme definitions web scraper~~  
 <a class="no-underline" title="Highlighting lines in git blame output based on dates" href="http://kray.me/2018/02/git-blame-highlight-lines-date/">:ballot_box_with_check:</a>
