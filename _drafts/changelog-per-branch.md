@@ -1,5 +1,5 @@
 ---
-title: [git/fabric] How to maintain a sane changelog across branches when using the Gitflow workflow
+title: git,fabric - How to maintain a sane changelog across branches when using the Gitflow workflow
 dropcaps: false
 published: true
 draft: true

@@ -1,5 +1,5 @@
 ---
-title: [slack/fabric] Deploying with style
+title: slack,fabric - Deploying with style
 dropcaps: false
 published: true
 draft: true

@@ -1,5 +1,5 @@
 ---
-title: [Django/tests/slack] Unit tests checking translations errors in .po files 
+title: Django,tests,slack - Unit tests checking translations errors in .po files 
 link: https://github.com/Kraymer/django-i18n-police
 dropcaps: false
 published: true
