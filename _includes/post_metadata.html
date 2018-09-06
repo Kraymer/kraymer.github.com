@@ -9,24 +9,12 @@
     <a href="{{ post.url }}">{{ post.title }}</a>
   </h1>
 
-{% if post.tags.size > 0 %}
-    {% capture tags_content %}on {% endcapture %}
-    {% for post_tag in post.tags %}
-      {% assign tag = site.data.tags[post_tag] %}
-      {% if tag %}
-        {% capture tags_content_temp %}{{ tags_content }}<a href="{{ site.baseurl }}/tag/{{ post_tag }}/">{{ tag.name }}</a>
-        {% if forloop.last == false %}<span>, </span>{% endif %}{% endcapture %}
-        {% assign tags_content = tags_content_temp %}
-      {% endif %}
-    {% endfor %}
-{% else %}
-    {% assign tags_content = '' %}
-{% endif %}
+{% include post_tags.html %}
 
 <div class="flexgrid">
   <div class="post-metadata flexleft">
         <time datetime="{{ post.date | date_to_long_string }}">{{ post.date | date_to_long_string }}</time>
-        <span>{{ tags_content }}</span><br>
+        on <span>{{ tags_content }}</span><br>
         <i class='fa fa-share-alt'></i>
         {% capture post_url_safe %}{{ post.url | absolute_url | url_encode }}{% endcapture %}
         {% capture post_title_safe %}{{ post.title | url_encode}}{% endcapture %}

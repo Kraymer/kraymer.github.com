@@ -7,5 +7,8 @@ permalink:    /drafts/
 <p>These are draft posts for previewing.</p>
 
 {% for item in site.drafts %}
-  <p><a href="{{ item.url }}">{{ item.title }}</a></p>
+  {% assign post = item %}
+  <p>{% include post_tags.html post=post %}
+  {{ tags_content }}
+  <a href="{{ item.url }}">{{ item.title }}</a></p>
 {% endfor %}

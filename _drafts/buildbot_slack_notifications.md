@@ -1,5 +1,5 @@
 ---
-title: buildbot,slack - Add slack notifications to buildbot
+title: Add slack notifications to buildbot
 dropcaps: false
 published: false
 draft: true

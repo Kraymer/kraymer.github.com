@@ -1,5 +1,5 @@
 ---
-title: git, fabric - Gitflow deployment strategy with fabric
+title: Gitflow deployment strategy with fabric
 dropcaps: false
 published: true
 draft: true

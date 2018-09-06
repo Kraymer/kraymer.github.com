@@ -1,5 +1,5 @@
 ---
-title: jekyll - Publish blog drafts to get feedbacks from your audience
+title: Publish blog drafts to get feedbacks from your audience
 description: Unlike others jekyll theme, Excommito theme enables you to get your drafts published while keeping them out of your homepage and posts listings. 
 dropcaps: true
 published: true

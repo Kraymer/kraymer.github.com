@@ -1,5 +1,5 @@
 ---
-title: Jekyll - Excommito theme, blog as you code
+title: Excommito theme, blog as you code
 description: Excommito is a jekyll theme aimed at developers. Clean layout with nerdy features (dropcaps, post edits history), drafts are made public and can be upvoted to get the author to finish the job.
 published: true
 link: https://github.com/Kraymer/kraymer.github.io
