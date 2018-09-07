@@ -177,5 +177,10 @@
     {% assign url = "https://vk.com/" | append: username %}
     {% include social-list-item.html platform=platform url=url %}
   {% endif %}
+  
+  {% if platform == "duolingo" %}
+    {% assign url = "http://duolingo.com/" | append: username %}
+    {% include social-list-item.html platform=platform url=url %}
+  {% endif %}
 {% endfor %}
 </ul>

@@ -32,6 +32,12 @@ open-source:
     &nbsp;&nbsp;&nbsp;
     <i class='fa fa-link'></i> [`issues`{:style="background: rgba(255, 128, 255, 0.15)"}](https://github.com/search?o=desc&q=author%3Akraymer+type%3Aissue&s=created&type=Issues)
 
+django:
+  name: Django
+  rss: true
+  description: >
+    The python web framework I work on on a daily basis.
+    
 jekyll:
   name: Jekyll
   rss: true
@@ -64,6 +70,13 @@ git:
   image: /public/img/back.jpg
   description: >
     Tips and one-liners for the git version control system
+
+slack:
+  name: Slack
+  rss: true
+  image: /public/img/back.jpg
+  description: >
+    Workflows involving slack and slackbots.
     
 itunes:
   name: iTunes

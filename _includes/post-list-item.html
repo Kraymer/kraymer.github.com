@@ -1,13 +1,12 @@
 {% assign post = include.post %}
 <li>
+  <small><time datetime="{{ post.date | date_to_xmlschema }}">
+    <b>{{ post.date | date: include.format }}</b>
+  </time></small>
   <a href="{{ post.url | prepend:site.baseurl }}">
     <span>{{ post.title }}</span>
     {% if post.draft %}
         <small>DRAFT</small>
-    {% else %}
-        <small><time datetime="{{ post.date | date_to_xmlschema }}">
-          {{ post.date | date: include.format }}
-        </time></small>
     {% endif %}
   </a>
 </li>
