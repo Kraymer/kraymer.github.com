@@ -9,6 +9,6 @@ permalink:    /drafts/
 {% for item in site.drafts %}
   {% assign post = item %}
   <p>{% include post_tags.html post=post %}
-  {{ tags_content }}
+  [{{ tags_content }}]
   <a href="{{ item.url }}">{{ item.title }}</a></p>
 {% endfor %}
