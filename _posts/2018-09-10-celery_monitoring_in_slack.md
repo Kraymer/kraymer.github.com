@@ -25,7 +25,7 @@ to distinguish whether a function is called from webserver or a celery process :
 
 ~~~ python
 import socket
-from jelouemoncampingcar.settings import * # NOQA
+from myapp.settings import * # NOQA
 
 IS_CELERY = True
 HOSTNAME = socket.gethostname()
