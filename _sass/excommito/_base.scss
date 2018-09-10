@@ -25,6 +25,15 @@ $terminal-window-height: 12px;
 $border-radius: 10px;
 $base-color: #002b36;
 
+.buffer-title {
+    background-color: #586e75;
+    color: #eee;
+    text-align: center;
+    display: block;
+    margin-top: -1rem;
+    font-family: $code-font-family;
+}
+
 .language-plaintext {
   position: relative;
   margin-bottom: 1.5em;
