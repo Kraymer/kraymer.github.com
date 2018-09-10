@@ -3,6 +3,7 @@ title: Slackery
 description: Celery tasks execution monitoring in slack
 dropcaps: false
 published: true
+comments: https://www.reddit.com/r/Python/comments/9en1cg/slackery_celery_tasks_execution_monitoring_in/
 tags:
 - python
 - slack
