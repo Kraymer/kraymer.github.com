@@ -5,9 +5,12 @@ layout: default
 {% include draft.html post=page link_title=false %}
 <hr>
 {% if post.draftnote %}
-    <div class="post-metadata">
-    <b>This post is a draft.</b> Want to see it finished ? 
-    Vote for it :point_right:
-    <a href="http://hitcounter.pythonanywhere.com/count/tag.svg?url={{ site.baseurl }}{{ post.url }}"><img src="http://hitcounter.pythonanywhere.com/nocount/tag.svg?url={{ site.baseurl }}{{ post.url }}" alt="Hits"></a>
-    </div>
+    <a name="clap-footer"></a>
+        <p style="display: inline; vertical-align:middle;">
+            <applause-button style="width: 48px; height: 48px;  float:left">
+            </applause-button>
+            <span class="post-metadata" style="display:inline; float:left; margin-top:0.5em;margin-left:0.5em">Vote for that draft to get it finished!</span>
+ 
+        </p>
+
 {% endif %}
