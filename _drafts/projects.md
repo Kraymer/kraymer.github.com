@@ -4,7 +4,7 @@ description: Ideas that go through my head regarding open source projects I can 
 dropcaps: false
 draftnote: false
 published: true
-draft: true
+draft: false
 tags:
 - open-source
 ---

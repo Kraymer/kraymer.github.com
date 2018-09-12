@@ -4,11 +4,19 @@ title:        Drafts
 permalink:    /drafts/
 ---
 
-<p>These are draft posts for previewing.</p>
+<p>These are draft posts for previewing.<br>    
+You can click on the applaude button present at the end of a draft to show up your interest and 
+thus motivate me get the post finished.</p>
 
 {% for item in site.drafts %}
-  {% assign post = item %}
-  <p>{% include post_tags_icons.html post=post %}
-  {{ tags_content }}
-  <a href="{{ item.url }}">{{ item.title }}</a></p>
+  {% if item.draft %}  <!-- ignore projects draft -->
+      {% assign post = item %}
+      <p>{% include post_tags_icons.html post=post %}
+      {{ tags_content }}
+      <a href="{{ item.url }}">{{ item.title }}</a></p>
+  {% endif %}
 {% endfor %}
+
+<br><br><ornament>§</ornament>
+
+<a href="/tag/open-source/"> <img src=/public/img/tags/github.png width=16 height=16 class='emoji'></a> <a href="/2018/09/projects/"><i>Projects ideas</i></a>
