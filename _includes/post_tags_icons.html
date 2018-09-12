@@ -1,0 +1,14 @@
+{% if post.tags.size > 0 %}
+    {% capture tags_content %}{% endcapture %}
+    {% for post_tag in post.tags %}
+      {% assign tag = site.data.tags[post_tag] %}
+      {% if tag %}
+        {% capture tags_content_temp %}{{ tags_content }}<a href="{{ site.baseurl }}/tag/{{ post_tag }}/">
+        <img src={{ tag.icon }} width=16 height=16 class='emoji'></a>
+        {% endcapture %}
+        {% assign tags_content = tags_content_temp %}
+      {% endif %}
+    {% endfor %}
+{% else %}
+    {% assign tags_content = '' %}
+{% endif %}

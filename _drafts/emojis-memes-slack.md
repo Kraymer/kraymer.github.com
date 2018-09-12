@@ -6,6 +6,7 @@ published: true
 draft: true
 tags:
 - methodology
+- slack
 ---
 ## Theory
 

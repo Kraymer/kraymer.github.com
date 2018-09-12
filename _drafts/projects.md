@@ -1,10 +1,12 @@
 ---
-title: Projects ideas
+title: "<i>Projects ideas</i>"
 description: Ideas that go through my head regarding open source projects I can start or contribute to
 dropcaps: false
 draftnote: false
 published: true
 draft: true
+tags:
+- open-source
 ---
 
 ## <img src="/public/img/posts/airplane-takeoff.png" width="32" class='emoji' />  Departures

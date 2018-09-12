@@ -4,6 +4,7 @@ dropcaps: false
 published: true
 draft: true
 tags:
+- methodology
 - python
 ---
 Workflow to maintain one changelog for each branch `hotfix` and `develop` and one consolidated.

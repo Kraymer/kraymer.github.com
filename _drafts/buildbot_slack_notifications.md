@@ -4,7 +4,6 @@ dropcaps: false
 published: false
 draft: true
 tags:
-- devops
 - buildbot
 - slack
 ---
