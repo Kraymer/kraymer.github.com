@@ -11,16 +11,27 @@ tags:
 
 ## <img src="/public/img/posts/airplane-takeoff.png" width="32" class='emoji' />  Departures
 
+- *loghistory*: print how many lines of a log file have been written on specific hour/day (-h -d). Replacement for this commands suite : 
+   
+   ~~~
+   sudo more uwsgi-fr-stdout---supervisor-tYVtDu.log | grep Oct|cut -f 3 -d "["|cut -f 1 -d ":"|sort|uniq -c 
+   2155 Mon Oct 15 04
+   2794 Mon Oct 15 05
+   1412 Mon Oct 15 06
+   2052 Mon Oct 15 07
+   ~~~   
 
-:white_medium_square: *duoflashprompt*: use [duolingo-api](https://github.com/KartikTalwar/Duolingo) 
+
+
+## <img src="/public/img/posts/airplane-on_hold.png" width="32" class='emoji' />  
+
+- *duoflashprompt*: use [duolingo-api](https://github.com/KartikTalwar/Duolingo) 
 to inject word in zsh prompt. Type `$ duo TRANSLATION` to make the word go away. A new word will pop 
 after a predefined delay elapsed.   
-:white_medium_square: *blintzkrieg*: long term war against PEP8 errors. Slack bot that use pylint to
+- *blintzkrieg*: long term war against PEP8 errors. Slack bot that use pylint to
 detect project files with bad note, extract main developer for given file and assign the task to 
 improve the style to her. At the end of the day, dev get blamed if challenge is lost. If he did 
 improve the file note he can pick another dev to launch the blintzkrieg on him for the next day.   
-
-## <img src="/public/img/posts/airplane-on_hold.png" width="32" class='emoji' />  
 
 ## <img src="/public/img/posts/airplane-landing.png" width="32" class='emoji' />  Arrivals
 
