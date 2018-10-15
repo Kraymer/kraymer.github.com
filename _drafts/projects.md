@@ -11,16 +11,7 @@ tags:
 
 ## <img src="/public/img/posts/airplane-takeoff.png" width="32" class='emoji' />  Departures
 
-- *loghistory*: print how many lines of a log file have been written on specific hour/day (-h -d). Replacement for this commands suite : 
-   
-   ~~~
-   sudo more uwsgi-fr-stdout---supervisor-tYVtDu.log | grep Oct|cut -f 3 -d "["|cut -f 1 -d ":"|sort|uniq -c 
-   2155 Mon Oct 15 04
-   2794 Mon Oct 15 05
-   1412 Mon Oct 15 06
-   2052 Mon Oct 15 07
-   ~~~   
-
+- *loghistory*: print how many lines of a log file have been written on specific hour/day (-h -d). Replacement for `sudo more file.log | grep Oct|cut -f 3 -d "["|cut -f 1 -d ":"|sort|uniq -c` 
 
 
 ## <img src="/public/img/posts/airplane-on_hold.png" width="32" class='emoji' />  

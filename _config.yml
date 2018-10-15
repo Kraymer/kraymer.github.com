@@ -119,12 +119,11 @@ defaults:
       layout: post
       dropcaps: true
   - scope:
-      path: ""
-      type: drafts
+      path: "_drafts"
     values:
       layout: draft
       draftnote: true
-      permalink: /:categories/:year/:month/:title/
+      permalink: /drafts/:title/
       
 collections:
   drafts:
