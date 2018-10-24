@@ -6,8 +6,8 @@ published: true
 draft: true
 comments: 
 tags:
-- unix
 - slack
+- unix
 ---
 
 This post is in the same vein than the [previous one](http://kray.me/2018/09/celery_monitoring_in_slack/) 
@@ -43,7 +43,7 @@ So my cron tasks are declared like so :
 $ crontab -l
 SHELL=/bin/bash
 
-# 0 */2 * * * /home/ubuntu/bin/runcheck.sh /home/ubuntu/bin/backup_db.sh
+# 0 */2 * * * /home/ubuntu/bin/runcheck.sh /home/ubuntu/my_project/binaries/cron/run_critics.sh
 ~~~
 
 In case of failure, a slack alert pops with all needed infos : hostname, command that fails and error message.
