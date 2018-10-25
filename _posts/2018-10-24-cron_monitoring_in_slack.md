@@ -24,7 +24,6 @@ that posts stdin to slack.
 runcheck() {
     ERR="$($@ 2>&1 > /dev/null)"
     if [ $? -ne 0 ]; then
-         PROG=${1##*/}
          echo "\`${1##*/}\` failed" | /usr/local/bin/slacktee.sh -p -u "$HOSTNAME" --config /home/ubuntu/.slacktee-alert
          echo "> ${ERR}" | /usr/local/bin/slacktee.sh -p -u "$HOSTNAME" --config /home/ubuntu/.slacktee-alert
     fi
