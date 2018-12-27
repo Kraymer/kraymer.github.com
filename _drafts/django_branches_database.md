@@ -14,4 +14,4 @@ For practical purpose we want to use the same database no matter the branch, so 
 available. Having one database per branch defeats that point and does not scale well with number of branches (creating a branch in 
 git is *cheap* as opposed to restoring a database).
 
-The trick consists to use `stellar`.
+The trick consists to use `stellar`, one of those tools that *just works*.
