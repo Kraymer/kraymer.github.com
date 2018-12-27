@@ -3,7 +3,6 @@ title: Cron jobs execution monitoring in slack
 description: Small bash wrapper using slacktee to report cron jobs fails to slack
 dropcaps: false
 published: true
-draft: true
 comments: 
 tags:
 - slack
