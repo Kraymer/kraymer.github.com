@@ -2,7 +2,8 @@
 title: Code across multiple branches while keeping a single database 
 dropcaps: true
 published: true
-description: A pragmatic setup when you code across multiple git branches with each their own migration files.  
+description: A pragmatic setup when you code across multiple git branches with each their own migration files. 
+comments: https://www.reddit.com/r/django/comments/aa46fd/avoid_migrations_headaches_when_coding_across/
 tags:
 - django
 - git
