@@ -3,7 +3,6 @@ title: Autokill detached anonymous EC2 instances
 description: Save money by stopping EC2 instances as soon as they get detached from autoscaler
 dropcaps: true
 published: true
-draft: true
 comments: https://www.reddit.com/r/aws/comments/agdjtl/autokill_detached_anonymous_ec2_instances/
 tags:
 - aws
