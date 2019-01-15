@@ -69,6 +69,11 @@ unix:
   description: >
     Whether it's Mac OS X at home or Ubuntu at work.
 
+aws:
+  name: AWS
+  rss: false
+  image: /public/img/back.jpg
+    
 git:
   name: Git
   rss: true
