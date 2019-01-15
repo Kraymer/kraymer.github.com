@@ -37,8 +37,8 @@ if [ $? -ne 0 ]; then { echo "Failed, aborting." ; exit 1; } fi
 
 
 if { [ -z "$IS_LONER_SERVER" ] && [ -z "$IS_AUTOSCALED_SERVER" ]; }; then
-    echo 'Detached: `shutdown` now' | /usr/local/bin/slacktee.sh -p -u "$HOSTNAME" --config /home/ubuntu/.slacktee-alert
-    sudo shutdown
+    echo 'Detached: `shutdown` in 5 minutes.' | /usr/local/bin/slacktee.sh -p -u "$HOSTNAME" --config /home/ubuntu/.slacktee-alert
+    sudo shutdown" | at now + 5 minutes
 fi
 ~~~
 
