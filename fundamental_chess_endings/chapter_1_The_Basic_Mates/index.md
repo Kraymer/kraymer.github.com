@@ -1,7 +1,6 @@
 ---
 layout:       page
-title:        FCE
+title:        Fundamental Chess Endings - The Basic Mates
 ---
 
-
-[King and Queen vs King](1-1)
+<iframe width=600 height=371 src="https://lichess.org/study/embed/1PMakhMt/3P6JzLAy" frameborder=0></iframe>
