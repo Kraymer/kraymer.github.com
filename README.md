@@ -1,3 +1,7 @@
+[![][patreon]](https://www.patreon.com/kraymer)
+
+[patreon]: https://img.shields.io/badge/-%E2%99%A1%20Donate%20-ff69b4
+
 # Ex commito
 
 Theme is based on Hydejack (v5), the pretentious two-column [Jekyll](http://jekyllrb.com) theme derived from [Hyde](http://hyde.getpoole.com).
