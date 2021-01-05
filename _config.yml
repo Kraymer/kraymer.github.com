@@ -6,14 +6,14 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jemoji
-  
+
 # Permalinks
 permalink: /:categories/:year/:month/:title/
 
 repository: kraymer/hydejack
 
 # Setup
-url:                 http://kray.me
+url:                 kray.me
 
 # Set to '' in case of hosting on GitHub pages,
 # i.e. `http://<username>.github.io`
@@ -42,7 +42,7 @@ load_google_fonts:   'Roboto+Slab:700|PT+Serif:400,400italic,700,700italic'
 # Syntax highlighting
 markdown: kramdown
 highlighter: rouge
-  
+
 # About yourself
 author:
   name:              'Fabrice Laporte'
@@ -124,7 +124,7 @@ defaults:
       layout: draft
       draftnote: true
       permalink: /drafts/:title/
-      
+
 collections:
   drafts:
     output: true
