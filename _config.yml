@@ -129,3 +129,5 @@ collections:
   drafts:
     output: true
     permalink: /:collection/:name
+
+theme: jekyll-theme-cayman
