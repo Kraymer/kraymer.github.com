@@ -39,7 +39,7 @@ django:
   rss: true
   description: >
     The python web framework I work on on a daily basis.
-    
+
 jekyll:
   name: Jekyll
   icon: /public/img/tags/jekyll.png
@@ -65,19 +65,19 @@ python:
 unix:
   name: Unix
   rss: true
-  image: /public/img/back.jpg
+  image: public/img/back.jpg
   description: >
     Whether it's Mac OS X at home or Ubuntu at work.
 
 aws:
   name: AWS
   rss: false
-  image: /public/img/back.jpg
-    
+  image: public/img/back.jpg
+
 git:
   name: Git
   rss: true
-  image: /public/img/back.jpg
+  image: public/img/back.jpg
   icon: /public/img/tags/git.png
   description: >
     Tips and one-liners for the git version control system
@@ -85,14 +85,14 @@ git:
 slack:
   name: Slack
   rss: true
-  image: /public/img/back.jpg
+  image: public/img/back.jpg
   icon: /public/img/tags/slack.png
   description: >
     Workflows involving slack and slackbots.
-    
+
 itunes:
   name: iTunes
-  image: /public/img/musicmanagement.jpg
+  image: public/img/musicmanagement.jpg
   description: >
     iTunes is an horrible piece of bloated software. Yet, that's a decade I
     use it to play my mp3 as it makes my headless macmini setup *just works*
