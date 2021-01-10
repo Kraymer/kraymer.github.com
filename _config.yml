@@ -31,7 +31,7 @@ description:         >
 sidebar_tags:        [open-source, music-management]
 
 # Fallback image and color if not overwritten for tag or post
-image:               public/img/back.jpg
+image:               /public/img/back.jpg
 color:               '#A85641'
 
 # Fonts
