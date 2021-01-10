@@ -63,25 +63,22 @@ author:
     # vine:            _username_
     # spotify:         user/_number_
     # soundcloud:      _username_
-    lastfm:          cosmokraymer
     # instagram:       _username_
     # flickr:          _string_@_string_
     # 500px:           _username_
     # dribbble:        _username_
     # behance:         _username_
     # deviantart:      _username_
-    duolingo:        kraymer
     # ello:            _username_
     # twitch:          _username_
     # steam:           _number_
-    # reddit:          _username_
+    reddit:          kraymer
     # tumblr:          _username_
     # pinterest:       _username_
     # foursquare:      _number_
     # yelp:            _string_
     github:          kraymer
     stackoverflow:   5181/kraymer
-    newsblur:        kraymer
     # npm:             _username_
     # hackernews:      _username_
     # trello:          _firstname__lastname_
