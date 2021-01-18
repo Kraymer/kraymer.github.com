@@ -47,11 +47,9 @@
     {% endif %}
   </noscript>
 
-  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
   <link rel="preload" href="{{ site.baseurl }}/public/css/non-essentials.css" as="style" onload="this.rel='stylesheet'">
-  {% if page.draft %}
-    <link rel="stylesheet" href="{{ site.baseurl }}/public/css/applause-button.css" />
-  {% endif %}
+
   
   {% capture last_date %}{{ site.posts.first.date }}{% endcapture %}
   <link rel="shortcut icon" type="image/png" href="https://raw.githubusercontent.com/Kraymer/bulkdata/master/excommito/{{ last_date | slice: 5,2 }}/favicon_{{ last_date | slice: 8,2 }}.png">
@@ -87,12 +85,10 @@
 
   <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}{{ page.url }}" />
   <link rel="alternate" type="application/atom+xml" title="{{ site.title }} Atom Feed" href="{{ site.baseurl }}/atom.xml">
-
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  
   <script>{% include scripts/load-js-deferred.min.js %}</script>
   <script>{% include scripts/jquery-3.2.0.slim.min.js %}</script>
-  {% if page.draft %}
-    <script src="https://unpkg.com/applause-button/dist/applause-button.js"></script>
-  {% endif %}
 
 {% if site.google_analytics and jekyll.environment == 'production' %}
 {% include analytics.html %}
