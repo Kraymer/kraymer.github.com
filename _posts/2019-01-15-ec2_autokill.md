@@ -22,7 +22,7 @@ name periodically and when it gets null, it means instance is detached and shoul
 
 So here is the script we now ship in the AMI, called by cron on an hourly basis :
 
-~~~
+```bash
 #!/bin/bash
 
 # This script is executed on an instance itself in order to determine if it is detached.
@@ -40,5 +40,5 @@ if { [ -z "$IS_LONER_SERVER" ] && [ -z "$IS_AUTOSCALED_SERVER" ]; }; then
     echo 'Detached: `shutdown` in 5 minutes.' | /usr/local/bin/slacktee.sh -p -u "$HOSTNAME" --config /home/ubuntu/.slacktee-alert
     sudo shutdown" | at now + 5 minutes
 fi
-~~~
+```
 
