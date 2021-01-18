@@ -182,5 +182,10 @@
     {% assign url = "http://duolingo.com/" | append: username %}
     {% include social-list-item.html platform=platform url=url %}
   {% endif %}
+
+  {% if platform == "chesscom" %}
+    {% assign url = "http://chess.com/" | append: username %}
+    {% include social-list-item.html platform=platform url=url %}
+  {% endif %}
 {% endfor %}
 </ul>
