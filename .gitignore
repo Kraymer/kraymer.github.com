@@ -1,7 +1,9 @@
 # Ignore docs files
 _gh_pages
 _site
+.direnv/
 .jekyll-cache/
 .ruby-version
 .sass-cache/
+.envrc
 Gemfile.lock
