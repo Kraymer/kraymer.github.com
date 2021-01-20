@@ -2,7 +2,7 @@
 
 [patreon]: https://img.shields.io/badge/-%E2%99%A1%20Donate%20-ff69b4
 
-# Ex commito <kray.me>
+# Ex commito <[kray.me](kray.me)>
 
 *Ex commito* is the place where I track my open-source activity.  
 It starts by an idea logged on the [Discussions](https://github.com/Kraymer/excommito/discussions) page and eventually it will materialize into a blog post or a published project is things go well.
