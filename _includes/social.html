@@ -184,7 +184,7 @@
   {% endif %}
 
   {% if platform == "chesscom" %}
-    {% assign url = "http://chess.com/" | append: username %}
+    {% assign url = "https://www.chess.com/member/" | append: username %}
     {% include social-list-item.html platform=platform url=url %}
   {% endif %}
 {% endfor %}
